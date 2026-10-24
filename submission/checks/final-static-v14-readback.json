@@ -1,0 +1,80 @@
+{
+  "checked_at": "2026-10-24T14:30:58.110479+00:00",
+  "static_version": 14,
+  "backend_health": {
+    "status": 200,
+    "body": {
+      "status": "ok",
+      "storage": "postgresql_rpc",
+      "server_time": 1792852258.109407,
+      "production_validated": false,
+      "release": "deno-close-v20",
+      "ingress_path": "/api/health"
+    }
+  },
+  "public_assets": [
+    {
+      "path": "assets/index-Cn-auN_y.js",
+      "status": 200,
+      "sha256": "0b42be74d089048906a9156795e81945325591b4a1d3f7e146ced1d7f59825a7",
+      "matches_release": true
+    },
+    {
+      "path": "assets/index-DD67_Fsf.css",
+      "status": 200,
+      "sha256": "9a3d03db043c12d3b9d37d84c4bbb0dfc489064f318901a82da189a410356817",
+      "matches_release": false
+    },
+    {
+      "path": "assets/three.module-BtCAaDxU.js",
+      "status": 200,
+      "sha256": "b1117df3c088a1be58f4166a5f4c9e688120c169d497ddac46c044c3c5517c9c",
+      "matches_release": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "d776e656ae306f1ce9d837e94d2fc1c5f6ba3bd7d536d45f332dad81e2254ea0",
+      "matches_release": false
+    }
+  ],
+  "local_source": [
+    {
+      "path": "frontend/index.html",
+      "exists": true,
+      "matches_release": true
+    },
+    {
+      "path": "frontend/src.jsx",
+      "exists": true,
+      "matches_release": true
+    },
+    {
+      "path": "frontend/style.css",
+      "exists": true,
+      "matches_release": true
+    },
+    {
+      "path": "frontend/components/SnowballRobot.jsx",
+      "exists": true,
+      "matches_release": true
+    },
+    {
+      "path": "frontend/vendor/three.module.js",
+      "exists": true,
+      "matches_release": true
+    },
+    {
+      "path": "frontend/vendor/THREE-LICENSE.txt",
+      "exists": true,
+      "matches_release": true
+    }
+  ],
+  "authenticated_browser_acceptance": "pending",
+  "mutations": false,
+  "asset_difference_followup": {
+    "css": "Remote CSS equals local dist CSS with an additional leading CRLF CRLF. inherits:true is present.",
+    "html": "Remote HTML references the expected v14 JS and CSS; platform adds favicon, security script and watermark and normalizes markup. Raw byte identity is not claimed.",
+    "conclusion": "Expected v14 assets are served; authenticated business UI acceptance remains pending."
+  }
+}

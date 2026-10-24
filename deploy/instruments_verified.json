@@ -1,0 +1,6 @@
+{
+  "validation_evidence": "validation/evidence/ifind_live.json + validation/evidence/fuyao_live_rerun.json; name/code verified; CNY is A-share instrument metadata, not verified quote unit",
+  "instruments": [
+    {"id":"CN.SH.600519","market":"SH","code":"600519","name":"贵州茅台","asset_class":"stock","currency":"CNY"}
+  ]
+}

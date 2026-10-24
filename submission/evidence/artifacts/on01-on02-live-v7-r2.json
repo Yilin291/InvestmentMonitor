@@ -1,0 +1,231 @@
+{
+  "started_at": "2026-10-24T10:00:49.462Z",
+  "real_clock": true,
+  "cases": [
+    {
+      "name": "formal_health",
+      "status": 200,
+      "retry_after": null,
+      "session_cookie_issued": false,
+      "body": {
+        "status": "ok",
+        "storage": "postgresql_rpc",
+        "server_time": 1792836050.767085,
+        "production_validated": false,
+        "release": "deno-product-v7",
+        "ingress_path": "/api/health"
+      }
+    },
+    {
+      "name": "negative_route:/unapproved/watchlist-api/api/health",
+      "status": 404,
+      "retry_after": null,
+      "session_cookie_issued": false,
+      "body": {
+        "code": "not_found",
+        "message": "接口不存在。"
+      }
+    },
+    {
+      "name": "negative_route:/watchlist-api/api/health",
+      "status": 404,
+      "retry_after": null,
+      "session_cookie_issued": false,
+      "body": {
+        "code": "not_found",
+        "message": "接口不存在。"
+      }
+    },
+    {
+      "name": "negative_route:/api/health/",
+      "status": 404,
+      "retry_after": null,
+      "session_cookie_issued": false,
+      "body": {
+        "code": "not_found",
+        "message": "接口不存在。"
+      }
+    },
+    {
+      "name": "negative_route:/api/health-extra",
+      "status": 404,
+      "retry_after": null,
+      "session_cookie_issued": false,
+      "body": {
+        "code": "not_found",
+        "message": "接口不存在。"
+      }
+    },
+    {
+      "name": "gateway_canonicalization://api/health",
+      "status": 200,
+      "retry_after": null,
+      "session_cookie_issued": false,
+      "body": {
+        "status": "ok",
+        "storage": "postgresql_rpc",
+        "server_time": 1792836052.751088,
+        "production_validated": false,
+        "release": "deno-product-v7",
+        "ingress_path": "/api/health"
+      }
+    },
+    {
+      "name": "gateway_canonicalization:/api/%68ealth",
+      "status": 200,
+      "retry_after": null,
+      "session_cookie_issued": false,
+      "body": {
+        "status": "ok",
+        "storage": "postgresql_rpc",
+        "server_time": 1792836053.220225,
+        "production_validated": false,
+        "release": "deno-product-v7",
+        "ingress_path": "/api/health"
+      }
+    },
+    {
+      "name": "incorrect_password_1",
+      "status": 401,
+      "retry_after": null,
+      "session_cookie_issued": false,
+      "body": {
+        "code": "invalid_credentials",
+        "message": "登录凭证错误。"
+      }
+    },
+    {
+      "name": "incorrect_password_2",
+      "status": 401,
+      "retry_after": null,
+      "session_cookie_issued": false,
+      "body": {
+        "code": "invalid_credentials",
+        "message": "登录凭证错误。"
+      }
+    },
+    {
+      "name": "incorrect_password_3",
+      "status": 401,
+      "retry_after": null,
+      "session_cookie_issued": false,
+      "body": {
+        "code": "invalid_credentials",
+        "message": "登录凭证错误。"
+      }
+    },
+    {
+      "name": "incorrect_password_4",
+      "status": 401,
+      "retry_after": null,
+      "session_cookie_issued": false,
+      "body": {
+        "code": "invalid_credentials",
+        "message": "登录凭证错误。"
+      }
+    },
+    {
+      "name": "incorrect_password_5",
+      "status": 401,
+      "retry_after": null,
+      "session_cookie_issued": false,
+      "body": {
+        "code": "invalid_credentials",
+        "message": "登录凭证错误。"
+      }
+    },
+    {
+      "name": "incorrect_password_6",
+      "status": 401,
+      "retry_after": null,
+      "session_cookie_issued": false,
+      "body": {
+        "code": "invalid_credentials",
+        "message": "登录凭证错误。"
+      }
+    },
+    {
+      "name": "incorrect_password_7",
+      "status": 401,
+      "retry_after": null,
+      "session_cookie_issued": false,
+      "body": {
+        "code": "invalid_credentials",
+        "message": "登录凭证错误。"
+      }
+    },
+    {
+      "name": "incorrect_password_8",
+      "status": 401,
+      "retry_after": null,
+      "session_cookie_issued": false,
+      "body": {
+        "code": "invalid_credentials",
+        "message": "登录凭证错误。"
+      }
+    },
+    {
+      "name": "incorrect_password_9",
+      "status": 401,
+      "retry_after": null,
+      "session_cookie_issued": false,
+      "body": {
+        "code": "invalid_credentials",
+        "message": "登录凭证错误。"
+      }
+    },
+    {
+      "name": "incorrect_password_10",
+      "status": 401,
+      "retry_after": null,
+      "session_cookie_issued": false,
+      "body": {
+        "code": "invalid_credentials",
+        "message": "登录凭证错误。"
+      }
+    },
+    {
+      "name": "incorrect_password_11",
+      "status": 429,
+      "retry_after": "55",
+      "session_cookie_issued": false,
+      "body": {
+        "code": "login_rate_limited",
+        "message": "登录尝试过多，请稍后重试。"
+      }
+    },
+    {
+      "name": "correct_password_still_limited",
+      "status": 429,
+      "retry_after": "54",
+      "session_cookie_issued": false,
+      "body": {
+        "code": "login_rate_limited",
+        "message": "登录尝试过多，请稍后重试。"
+      }
+    },
+    {
+      "name": "correct_password_after_window",
+      "status": 200,
+      "retry_after": null,
+      "session_cookie_issued": true,
+      "body": {
+        "owner": "demo"
+      }
+    },
+    {
+      "name": "wrong_password_after_window",
+      "status": 401,
+      "retry_after": null,
+      "session_cookie_issued": false,
+      "body": {
+        "code": "invalid_credentials",
+        "message": "登录凭证错误。"
+      }
+    }
+  ],
+  "passwords_logged": false,
+  "real_wait_seconds": 55,
+  "passed": true,
+  "finished_at": "2026-10-24T10:01:56.090Z"
+}

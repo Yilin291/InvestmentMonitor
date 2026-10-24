@@ -1,0 +1,7 @@
+Browser tab: 1650485156, Title: "你好 · 自选股监控", URL: "https://ucdte4eh02uv.meoo.info/".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+~			74 text 草稿整理好了，请核对条件。
++			115 container
++				116 text 招商银行日收盘价低于40元提醒 ： 日收盘价（不复权/CNY） < 40 元
++			117 button 采用草稿并检查
+The focused UI element is 77 button 生成可编辑草稿

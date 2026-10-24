@@ -1,0 +1,321 @@
+{
+  "checked_at": "2026-10-24T14:39:14.495Z",
+  "scope": "login and read-only independent API verification; zero manual ticks",
+  "anonymous_status": 401,
+  "login_status": 200,
+  "task_count": 10,
+  "task_id": "272eb99943b9461389ebacf1cb7f80d6",
+  "detail": {
+    "id": "272eb99943b9461389ebacf1cb7f80d6",
+    "name": "最终验收 · 招商银行日收盘低于39.5元",
+    "spec": {
+      "name": "最终验收 · 招商银行日收盘低于39.5元",
+      "rule": {
+        "kind": "close_price_group",
+        "combinator": "all",
+        "conditions": [
+          {
+            "id": "p1",
+            "field": "close_price",
+            "value": "39.5",
+            "currency": "CNY",
+            "operator": "lt"
+          }
+        ]
+      },
+      "schedule": {
+        "mode": "daily_close",
+        "timezone": "Asia/Shanghai",
+        "interval_seconds": 86400
+      },
+      "instrument_id": "CN.SH.600036",
+      "notification_policy": {
+        "mode": "on_episode",
+        "cooldown_seconds": 86400
+      }
+    },
+    "owner": "demo",
+    "unread": 0,
+    "runtime": {
+      "state": {
+        "episode": 0,
+        "last_result": false,
+        "cooldown_until": 0,
+        "last_trade_date": "2026-10-23",
+        "episode_notified": false,
+        "last_close_price": "41.77"
+      },
+      "health": "healthy",
+      "overdue": false,
+      "task_id": "272eb99943b9461389ebacf1cb7f80d6",
+      "decision": "no_match",
+      "next_run": null,
+      "pause_at": 1792852725.761346,
+      "lease_until": null,
+      "last_checked": 1792852708.080992,
+      "last_success": 1792852708.080992
+    },
+    "version": 1,
+    "lifecycle": "paused",
+    "created_at": 1792852664.255492,
+    "generation": 2,
+    "instrument": {
+      "id": "CN.SH.600036",
+      "code": "600036",
+      "name": "招商银行",
+      "market": "SH",
+      "currency": "CNY",
+      "provenance": "{\"provider\":\"fuyao\",\"source\":\"https://fuyao.aicubes.cn/api/meta/tickers/search?q=%E6%8B%9B%E5%95%86%E9%93%B6%E8%A1%8C&asset_type=a-share&limit=20\",\"request_id\":\"89f1ad657aad40d7a786793a7e98bfa4\",\"verified_at\":\"2026-10-24T10:46:57.611Z\",\"asset_type\":\"a-share\"}",
+      "asset_class": "stock"
+    },
+    "updated_at": 1792852725.761346,
+    "instrument_id": "CN.SH.600036",
+    "last_evaluation": {
+      "gap": null,
+      "retry": null,
+      "result": false,
+      "run_id": "9afb6350c39c4d3bb470dec85021434b",
+      "version": 1,
+      "calendar": null,
+      "decision": "no_match",
+      "evidence": [
+        {
+          "result": false,
+          "quality": "valid",
+          "condition": {
+            "id": "p1",
+            "field": "close_price",
+            "value": "39.5",
+            "currency": "CNY",
+            "operator": "lt"
+          },
+          "observation": {
+            "unit": "CNY",
+            "field": "close_price",
+            "value": "41.77",
+            "adjust": "none",
+            "date_ms": "1792684800000",
+            "quality": "valid",
+            "provider": "fuyao",
+            "fetched_at": "2026-10-24T10:44:19.878Z",
+            "request_id": "fd8d3a1ad95c41cc9e012558ad0b5437",
+            "source_ref": "https://fuyao.aicubes.cn/api/a-share/prices/historical?thscode=600036.SH&interval=1d&adjust=none&start=1789747200000&end=1792771200000",
+            "trade_date": "2026-10-23",
+            "reason_code": null,
+            "source_time": null,
+            "instrument_id": "CN.SH.600036",
+            "provider_echo": {
+              "adjust": "none",
+              "thscode": "600036.SH",
+              "interval": "1d"
+            },
+            "identity_basis": "response thscode/interval/adjust strictly matched",
+            "mapping_version": "fuyao-daily-close-v1"
+          },
+          "reason_code": null,
+          "observation_id": "47a38deb1d1d43bb8c4990dee9a8c212"
+        }
+      ],
+      "recovery": null,
+      "trade_date": "2026-10-23",
+      "reason_code": null,
+      "evaluated_at": 1792852708.080992,
+      "trigger_request_id": "cf-cron:ucdte4eh02uv:29880878",
+      "expected_trade_date": "2026-10-23"
+    },
+    "scheduler_observation": {
+      "server_time": 1792852751.653981,
+      "last_request": 1792852707.193032,
+      "source_basis": "authenticated_tick_request_id_prefix",
+      "last_finished": 1792852708.080992,
+      "last_cloud_request": 1792852707.193032,
+      "last_cloud_finished": 1792852708.080992,
+      "warning_after_seconds": 180,
+      "expected_interval_seconds": 60,
+      "automatic_execution_verified": false
+    }
+  },
+  "runs": [
+    {
+      "id": "9afb6350c39c4d3bb470dec85021434b",
+      "detail": {
+        "market": {
+          "status": "completed_close",
+          "coverage": "SH 2026 scheduled closures plus positive provider expected date; emergency halt remains unknown",
+          "exchange": "SH",
+          "checked_at": 1792852707.576,
+          "source_ref": "https://fuyao.aicubes.cn/api/a-share/calendar/trading-days",
+          "trade_date": "2026-10-23",
+          "exchange_rule": "https://www.sse.com.cn/lawandrules/sselawsrules2025/fund/trading/c/c_20260424_10817739.shtml",
+          "policy_version": "cn-sh-sz-2026-positive-calendar-v3",
+          "calendar_sources": [
+            "https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml",
+            "https://www.sse.com.cn/disclosure/announcement/general/c/c_20260915_10832273.shtml"
+          ],
+          "calendar_version": "sse-2026-notice45-notice22-v1",
+          "expected_trade_date": "2026-10-23"
+        },
+        "result": false,
+        "decision": "no_match",
+        "evidence": [
+          {
+            "result": false,
+            "quality": "valid",
+            "condition": {
+              "id": "p1",
+              "field": "close_price",
+              "value": "39.5",
+              "currency": "CNY",
+              "operator": "lt"
+            },
+            "observation": {
+              "unit": "CNY",
+              "field": "close_price",
+              "value": "41.77",
+              "adjust": "none",
+              "date_ms": "1792684800000",
+              "quality": "valid",
+              "provider": "fuyao",
+              "fetched_at": "2026-10-24T10:44:19.878Z",
+              "request_id": "fd8d3a1ad95c41cc9e012558ad0b5437",
+              "source_ref": "https://fuyao.aicubes.cn/api/a-share/prices/historical?thscode=600036.SH&interval=1d&adjust=none&start=1789747200000&end=1792771200000",
+              "trade_date": "2026-10-23",
+              "reason_code": null,
+              "source_time": null,
+              "instrument_id": "CN.SH.600036",
+              "provider_echo": {
+                "adjust": "none",
+                "thscode": "600036.SH",
+                "interval": "1d"
+              },
+              "identity_basis": "response thscode/interval/adjust strictly matched",
+              "mapping_version": "fuyao-daily-close-v1"
+            },
+            "reason_code": null,
+            "observation_id": "47a38deb1d1d43bb8c4990dee9a8c212"
+          }
+        ],
+        "warnings": [],
+        "next_check": 1792912500,
+        "valid_until": 1792911600,
+        "evaluated_at": 1792852708.080992,
+        "mapping_version": "fuyao-daily-close-v1"
+      },
+      "result": false,
+      "status": "succeeded",
+      "task_id": "272eb99943b9461389ebacf1cb7f80d6",
+      "version": 1,
+      "decision": "no_match",
+      "evidence": [
+        {
+          "result": false,
+          "quality": "valid",
+          "condition": {
+            "id": "p1",
+            "field": "close_price",
+            "value": "39.5",
+            "currency": "CNY",
+            "operator": "lt"
+          },
+          "observation": {
+            "unit": "CNY",
+            "field": "close_price",
+            "value": "41.77",
+            "adjust": "none",
+            "date_ms": "1792684800000",
+            "quality": "valid",
+            "provider": "fuyao",
+            "fetched_at": "2026-10-24T10:44:19.878Z",
+            "request_id": "fd8d3a1ad95c41cc9e012558ad0b5437",
+            "source_ref": "https://fuyao.aicubes.cn/api/a-share/prices/historical?thscode=600036.SH&interval=1d&adjust=none&start=1789747200000&end=1792771200000",
+            "trade_date": "2026-10-23",
+            "reason_code": null,
+            "source_time": null,
+            "instrument_id": "CN.SH.600036",
+            "provider_echo": {
+              "adjust": "none",
+              "thscode": "600036.SH",
+              "interval": "1d"
+            },
+            "identity_basis": "response thscode/interval/adjust strictly matched",
+            "mapping_version": "fuyao-daily-close-v1"
+          },
+          "reason_code": null,
+          "observation_id": "47a38deb1d1d43bb8c4990dee9a8c212"
+        }
+      ],
+      "generation": 1,
+      "started_at": 1792852707.193032,
+      "finished_at": 1792852708.080992,
+      "scheduled_for": 1792852665.010994
+    }
+  ],
+  "versions": [
+    {
+      "spec": {
+        "name": "最终验收 · 招商银行日收盘低于39.5元",
+        "rule": {
+          "kind": "close_price_group",
+          "combinator": "all",
+          "conditions": [
+            {
+              "id": "p1",
+              "field": "close_price",
+              "value": "39.5",
+              "currency": "CNY",
+              "operator": "lt"
+            }
+          ]
+        },
+        "schedule": {
+          "mode": "daily_close",
+          "timezone": "Asia/Shanghai",
+          "interval_seconds": 86400
+        },
+        "instrument_id": "CN.SH.600036",
+        "notification_policy": {
+          "mode": "on_episode",
+          "cooldown_seconds": 86400
+        }
+      },
+      "task_id": "272eb99943b9461389ebacf1cb7f80d6",
+      "version": 1,
+      "created_at": 1792852664.255492,
+      "change_summary": "创建草稿"
+    }
+  ],
+  "audit": [
+    {
+      "at": 1792852725.761346,
+      "id": 45,
+      "action": "pause",
+      "detail": {
+        "gap_to": null,
+        "gap_from": null,
+        "from_version": 1,
+        "historical_prices_replayed": false
+      },
+      "task_id": "272eb99943b9461389ebacf1cb7f80d6"
+    },
+    {
+      "at": 1792852665.010994,
+      "id": 44,
+      "action": "activate",
+      "detail": {
+        "gap_to": null,
+        "gap_from": null,
+        "from_version": 1,
+        "historical_prices_replayed": false
+      },
+      "task_id": "272eb99943b9461389ebacf1cb7f80d6"
+    },
+    {
+      "at": 1792852664.255492,
+      "id": 43,
+      "action": "created",
+      "detail": {},
+      "task_id": "272eb99943b9461389ebacf1cb7f80d6"
+    }
+  ],
+  "notification_count": 0
+}

@@ -1,0 +1,204 @@
+{
+  "started_at": "2026-10-24T09:29:29.420Z",
+  "automatic_schedule": false,
+  "cases": [
+    {
+      "name": "platform_only",
+      "status": 401,
+      "body": {
+        "code": "unauthorized",
+        "message": "调度身份校验失败。"
+      }
+    },
+    {
+      "name": "business_only",
+      "status": 401,
+      "body": {
+        "code": "unauthorized",
+        "message": "调度身份校验失败。"
+      }
+    },
+    {
+      "name": "wrong_business",
+      "status": 401,
+      "body": {
+        "code": "unauthorized",
+        "message": "调度身份校验失败。"
+      }
+    },
+    {
+      "name": "authorized_manual_tick",
+      "status": 200,
+      "body": {
+        "key": "manual-dual-auth-1792834171066",
+        "processed": 0
+      }
+    },
+    {
+      "name": "/api/v1/tasks",
+      "status": 200,
+      "body": [
+        {
+          "id": "48bf9e848e5a4b29ba47241a4636ab3e",
+          "name": "UI日期提醒演示（等待独立调度）",
+          "spec": {
+            "name": "UI日期提醒演示（等待独立调度）",
+            "rule": {
+              "kind": "calendar_once",
+              "scheduled_at": "2026-10-24T17:45:00+08:00"
+            },
+            "schedule": {
+              "mode": "once",
+              "timezone": "Asia/Shanghai"
+            },
+            "instrument_id": null,
+            "notification_policy": {
+              "mode": "on_episode",
+              "cooldown_seconds": 86400
+            }
+          },
+          "owner": "demo",
+          "unread": 0,
+          "runtime": {
+            "state": {
+              "episode": 0,
+              "last_result": null,
+              "cooldown_until": 0,
+              "episode_notified": false
+            },
+            "health": "pending",
+            "overdue": false,
+            "task_id": "48bf9e848e5a4b29ba47241a4636ab3e",
+            "decision": null,
+            "next_run": 1792835100,
+            "pause_at": null,
+            "lease_until": null,
+            "last_checked": null,
+            "last_success": null
+          },
+          "version": 1,
+          "lifecycle": "enabled",
+          "created_at": 1792834052.612164,
+          "generation": 1,
+          "instrument": null,
+          "updated_at": 1792834053.190371,
+          "instrument_id": null
+        },
+        {
+          "id": "ffe5e52e8327421a9fd553aff1a6eed7",
+          "name": "真实日期链路验收（手动功能检查，非自动调度）",
+          "spec": {
+            "name": "真实日期链路验收（手动功能检查，非自动调度）",
+            "rule": {
+              "kind": "calendar_once",
+              "scheduled_at": "2026-10-24T09:23:54.354Z"
+            },
+            "schedule": {
+              "mode": "once",
+              "timezone": "Asia/Shanghai"
+            },
+            "instrument_id": null,
+            "notification_policy": {
+              "mode": "on_episode",
+              "cooldown_seconds": 86400
+            }
+          },
+          "owner": "demo",
+          "unread": 0,
+          "runtime": {
+            "state": {
+              "episode": 0,
+              "last_result": null,
+              "calendar_done": 1792833834.354,
+              "cooldown_until": 0,
+              "episode_notified": false
+            },
+            "health": "healthy",
+            "overdue": false,
+            "task_id": "ffe5e52e8327421a9fd553aff1a6eed7",
+            "decision": "notify",
+            "next_run": null,
+            "pause_at": null,
+            "lease_until": null,
+            "last_checked": 1792834018.433135,
+            "last_success": 1792834018.433135
+          },
+          "version": 1,
+          "lifecycle": "enabled",
+          "created_at": 1792833717.604004,
+          "generation": 1,
+          "instrument": null,
+          "updated_at": 1792833718.563293,
+          "instrument_id": null
+        }
+      ]
+    },
+    {
+      "name": "/api/v1/instruments",
+      "status": 200,
+      "body": [
+        {
+          "id": "CN.SH.600519",
+          "code": "600519",
+          "name": "贵州茅台",
+          "market": "SH",
+          "currency": "CNY",
+          "provenance": "validation/evidence/ifind_live.json + validation/evidence/fuyao_live_rerun.json; verified metadata only",
+          "asset_class": "stock"
+        }
+      ]
+    },
+    {
+      "name": "/api/v1/notifications",
+      "status": 200,
+      "body": [
+        {
+          "id": "5657d16d2d2b427d92090f839d9170f7",
+          "detail": {
+            "name": "事务验收：不同请求竞争",
+            "evidence": {
+              "result": true,
+              "calendar": {
+                "actual_at": 1792834029.866152,
+                "late_seconds": 4.169152021408081,
+                "scheduled_at": 1792834025.697
+              },
+              "decision": "notify",
+              "evidence": [],
+              "evaluated_at": 1792834029.866152
+            }
+          },
+          "run_id": "d9db970936fd46be95767476ea809221",
+          "read_at": null,
+          "task_id": "e97471ccfa144580a926c19b74ca5279",
+          "dedup_key": "calendar:e97471ccfa144580a926c19b74ca5279:1792834025.697",
+          "created_at": 1792834029.866152
+        },
+        {
+          "id": "3377614a1c3547dcb108af53d857b98b",
+          "detail": {
+            "name": "真实日期链路验收（手动功能检查，非自动调度）",
+            "evidence": {
+              "result": true,
+              "calendar": {
+                "actual_at": 1792834018.433135,
+                "late_seconds": 184.07913494110107,
+                "scheduled_at": 1792833834.354
+              },
+              "decision": "notify",
+              "evidence": [],
+              "evaluated_at": 1792834018.433135
+            }
+          },
+          "run_id": "cdc22e4527f9430985e8339e6f2530fb",
+          "read_at": 1792834019.307159,
+          "task_id": "ffe5e52e8327421a9fd553aff1a6eed7",
+          "dedup_key": "calendar:ffe5e52e8327421a9fd553aff1a6eed7:1792833834.354",
+          "created_at": 1792834018.433135
+        }
+      ]
+    }
+  ],
+  "passed": true,
+  "finished_at": "2026-10-24T09:29:37.458Z"
+}

@@ -1,0 +1,94 @@
+{
+  "isolated_schema": "watchlist_restore_20261024_214139",
+  "source_unchanged": true,
+  "same_instance_only": true,
+  "off_instance_recovery_tested": false,
+  "snapshot_sha256": "b8937ddc21277e79dbc23d8f322ef5ed220cda09981ab83d666b407b17d9a773",
+  "tables": {
+    "schema_version": {
+      "source_rows": 10,
+      "restored_rows": 10,
+      "equal": true
+    },
+    "instruments": {
+      "source_rows": 11,
+      "restored_rows": 11,
+      "equal": true
+    },
+    "tasks": {
+      "source_rows": 14,
+      "restored_rows": 14,
+      "equal": true
+    },
+    "rule_versions": {
+      "source_rows": 15,
+      "restored_rows": 15,
+      "equal": true
+    },
+    "runtime": {
+      "source_rows": 14,
+      "restored_rows": 14,
+      "equal": true
+    },
+    "runs": {
+      "source_rows": 16,
+      "restored_rows": 16,
+      "equal": true
+    },
+    "observations": {
+      "source_rows": 7,
+      "restored_rows": 7,
+      "equal": true
+    },
+    "events": {
+      "source_rows": 0,
+      "restored_rows": 0,
+      "equal": true
+    },
+    "calendar_entries": {
+      "source_rows": 8,
+      "restored_rows": 8,
+      "equal": true
+    },
+    "evidence": {
+      "source_rows": 12,
+      "restored_rows": 12,
+      "equal": true
+    },
+    "notifications": {
+      "source_rows": 8,
+      "restored_rows": 8,
+      "equal": true
+    },
+    "audit": {
+      "source_rows": 42,
+      "restored_rows": 42,
+      "equal": true
+    },
+    "parser_audit": {
+      "source_rows": 46,
+      "restored_rows": 46,
+      "equal": true
+    },
+    "ticks": {
+      "source_rows": 153,
+      "restored_rows": 153,
+      "equal": true
+    },
+    "close_records": {
+      "source_rows": 6,
+      "restored_rows": 6,
+      "equal": true
+    }
+  },
+  "passed": true,
+  "foreign_keys_restored": 14,
+  "ephemeral_excluded": [
+    "login_attempts",
+    "close_cache",
+    "llm_settings"
+  ],
+  "ephemeral_policy": "recreate excluded tables empty from migrations; custom model keys must be re-entered; snapshot is not executable and lease fields must be cleared before activating a replacement worker",
+  "restore_scope": "business records including daily close conflict history; not a runnable replacement instance",
+  "immutable_trigger_restored": true
+}

@@ -1,0 +1,15 @@
+{
+  "name": "tonghuashun-watchlist-monitor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "sh scripts/start.sh",
+    "check:contract": "node validation/self_check.mjs",
+    "build": "sh scripts/build-static.sh",
+    "start:local": "sh deploy/product-start.sh",
+    "start:validation": "node validation/server.mjs",
+    "test": "python3 -m unittest discover -s tests -v",
+    "build:python-reference": "sh scripts/setup.sh"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-10-24T13:41:57.162Z",
+  "health": {
+    "status": 200,
+    "body": {
+      "status": "ok",
+      "storage": "postgresql_rpc",
+      "server_time": 1792849315.522618,
+      "production_validated": false,
+      "release": "deno-close-v20",
+      "ingress_path": "/api/health"
+    }
+  },
+  "login_status": 200,
+  "tasks_status": 200,
+  "task_count": 9,
+  "task_response_keys": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+  ],
+  "function_version": 20,
+  "deployed_at": "2026-10-24T13:39:09.007Z",
+  "abandoned_before_deploy": true,
+  "recovered_after_deploy": true,
+  "recovered_at": "2026-10-24T13:40:29.314Z",
+  "notification_count": 1,
+  "manual_recovery_ticks": 0
+}

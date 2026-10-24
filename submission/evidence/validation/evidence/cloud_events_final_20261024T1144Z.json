@@ -1,0 +1,2118 @@
+{
+  "recorded_at": "2026-10-24T11:44:16.098780+00:00",
+  "source_file": "validation/evidence/cloudflare_tail_20261024T1100Z.jsonl",
+  "events": [
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792840163333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "2436f608-8584-4f2f-ae85-b571a81fd16f"
+      },
+      "cpu_ms": 1,
+      "wall_ms": 1
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792840223333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "2436f608-8584-4f2f-ae85-b571a81fd16f"
+      },
+      "cpu_ms": 1,
+      "wall_ms": 1
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792840283333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "2a4ce4b8-a333-4aab-80ce-91532a36ae7f"
+      },
+      "cpu_ms": 1,
+      "wall_ms": 1
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792840343333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "312f836b-4179-4b07-9371-b75f4276f66a"
+      },
+      "cpu_ms": 2,
+      "wall_ms": 2710
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792840403333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "911ea779-e2dd-43bd-9a9c-d20420f36614"
+      },
+      "cpu_ms": 2,
+      "wall_ms": 4108
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792840463333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "911ea779-e2dd-43bd-9a9c-d20420f36614"
+      },
+      "cpu_ms": 2,
+      "wall_ms": 5473
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792840523333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "911ea779-e2dd-43bd-9a9c-d20420f36614"
+      },
+      "cpu_ms": 2,
+      "wall_ms": 2659
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792840583333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "911ea779-e2dd-43bd-9a9c-d20420f36614"
+      },
+      "cpu_ms": 3,
+      "wall_ms": 5652
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792840643333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "911ea779-e2dd-43bd-9a9c-d20420f36614"
+      },
+      "cpu_ms": 3,
+      "wall_ms": 5048
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792840703333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "911ea779-e2dd-43bd-9a9c-d20420f36614"
+      },
+      "cpu_ms": 2,
+      "wall_ms": 3480
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792840763333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "911ea779-e2dd-43bd-9a9c-d20420f36614"
+      },
+      "cpu_ms": 3,
+      "wall_ms": 3481
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792840823333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "403b2144-7012-417c-b4c8-eaa8fd655fe8"
+      },
+      "cpu_ms": 3,
+      "wall_ms": 4195
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792840883333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "403b2144-7012-417c-b4c8-eaa8fd655fe8"
+      },
+      "cpu_ms": 3,
+      "wall_ms": 3372
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792840943333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 2,
+      "wall_ms": 4757
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792841003333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 1,
+      "wall_ms": 4073
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792841063333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 2,
+      "wall_ms": 1695
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792841123333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 2,
+      "wall_ms": 1539
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792841183333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 3,
+      "wall_ms": 4208
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792841243333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 2,
+      "wall_ms": 3483
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792841303333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 2,
+      "wall_ms": 3543
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792841363333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 2,
+      "wall_ms": 3096
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792841423333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 3,
+      "wall_ms": 4834
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792841483333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 2,
+      "wall_ms": 4947
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792841543333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 1,
+      "wall_ms": 7346
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792841603333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 2,
+      "wall_ms": 3962
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792841663333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 2,
+      "wall_ms": 4243
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792841723333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 2,
+      "wall_ms": 3400
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792841783333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 2,
+      "wall_ms": 5245
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792841843333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 3,
+      "wall_ms": 2932
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792841903333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 3,
+      "wall_ms": 3498
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792841963333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 2,
+      "wall_ms": 3908
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792842023333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 3,
+      "wall_ms": 3340
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792842083333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 2,
+      "wall_ms": 3848
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792842143333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 1,
+      "wall_ms": 4988
+    },
+    {
+      "event": {
+        "cron": "* * * * *",
+        "scheduledTime": 1792842203333
+      },
+      "outcome": "ok",
+      "version": {
+        "id": "067222d2-a4a3-4605-b6d9-4d8756f86f86"
+      },
+      "cpu_ms": 2,
+      "wall_ms": 3774
+    }
+  ],
+  "logs": [
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v1",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:09:23.333Z",
+      "scheduled_time_ms": 1792840163333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880669",
+      "started_at": "2026-10-24T11:09:37.376Z",
+      "scheduler_mode": "probe",
+      "lateness_ms": 14043,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v1",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:09:23.333Z",
+      "scheduled_time_ms": 1792840163333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880669",
+      "started_at": "2026-10-24T11:09:37.376Z",
+      "scheduler_mode": "probe",
+      "lateness_ms": 14043,
+      "phase": "health",
+      "status": "failed",
+      "http_status": null,
+      "error_code": "health_network_timeout_or_json"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v1",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:10:23.333Z",
+      "scheduled_time_ms": 1792840223333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880670",
+      "started_at": "2026-10-24T11:10:24.265Z",
+      "scheduler_mode": "probe",
+      "lateness_ms": 932,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v1",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:10:23.333Z",
+      "scheduled_time_ms": 1792840223333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880670",
+      "started_at": "2026-10-24T11:10:24.265Z",
+      "scheduler_mode": "probe",
+      "lateness_ms": 932,
+      "phase": "health",
+      "status": "failed",
+      "http_status": null,
+      "error_code": "health_network_timeout_or_json"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v2",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:11:23.333Z",
+      "scheduled_time_ms": 1792840283333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880671",
+      "started_at": "2026-10-24T11:11:24.759Z",
+      "scheduler_mode": "probe",
+      "lateness_ms": 1426,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v2",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:11:23.333Z",
+      "scheduled_time_ms": 1792840283333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880671",
+      "started_at": "2026-10-24T11:11:24.759Z",
+      "scheduler_mode": "probe",
+      "lateness_ms": 1426,
+      "phase": "health",
+      "status": "failed",
+      "http_status": null,
+      "error_code": "health_network_timeout_or_json",
+      "error_name": "TypeError",
+      "diagnostic": "Invalid redirect value, must be one of \"follow\" or \"manual\" (\"error\" won't be implemented since it does not make sense at the edge; use \"manual\" and check the response status code)."
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:12:23.333Z",
+      "scheduled_time_ms": 1792840343333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880672",
+      "started_at": "2026-10-24T11:12:23.735Z",
+      "scheduler_mode": "probe",
+      "lateness_ms": 402,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:12:23.333Z",
+      "scheduled_time_ms": 1792840343333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880672",
+      "started_at": "2026-10-24T11:12:23.735Z",
+      "scheduler_mode": "probe",
+      "lateness_ms": 402,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v10",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:12:23.333Z",
+      "scheduled_time_ms": 1792840343333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880672",
+      "started_at": "2026-10-24T11:12:23.735Z",
+      "scheduler_mode": "probe",
+      "lateness_ms": 402,
+      "phase": "complete",
+      "status": "probe_only_no_tick",
+      "finished_at": "2026-10-24T11:12:26.462Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:13:23.333Z",
+      "scheduled_time_ms": 1792840403333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880673",
+      "started_at": "2026-10-24T11:13:24.159Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 826,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:13:23.333Z",
+      "scheduled_time_ms": 1792840403333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880673",
+      "started_at": "2026-10-24T11:13:24.159Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 826,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v10",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:13:23.333Z",
+      "scheduled_time_ms": 1792840403333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880673",
+      "started_at": "2026-10-24T11:13:24.159Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 826,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "run_id": "d30d9a01269d47c5bba771b8854df16f",
+        "task_id": "48bf9e848e5a4b29ba47241a4636ab3e",
+        "decision": "notify",
+        "processed": 1
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:13:28.279Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:14:23.333Z",
+      "scheduled_time_ms": 1792840463333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880674",
+      "started_at": "2026-10-24T11:14:24.204Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 871,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:14:23.333Z",
+      "scheduled_time_ms": 1792840463333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880674",
+      "started_at": "2026-10-24T11:14:24.204Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 871,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v10",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:14:23.333Z",
+      "scheduled_time_ms": 1792840463333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880674",
+      "started_at": "2026-10-24T11:14:24.204Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 871,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "run_id": "522e50acd7474688b7a19f7575d160bc",
+        "task_id": "67c22ac8c03742a9939a6f4fa98c278b",
+        "decision": "notify",
+        "processed": 1
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:14:29.690Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:15:23.333Z",
+      "scheduled_time_ms": 1792840523333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880675",
+      "started_at": "2026-10-24T11:15:24.302Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 969,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:15:23.333Z",
+      "scheduled_time_ms": 1792840523333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880675",
+      "started_at": "2026-10-24T11:15:24.302Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 969,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v10",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:15:23.333Z",
+      "scheduled_time_ms": 1792840523333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880675",
+      "started_at": "2026-10-24T11:15:24.302Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 969,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "run_id": "3c652b8c53ec470aae42a8b3ebd7fb3b",
+        "task_id": "546597e801114893915b4fa98c978d0a",
+        "decision": "no_match",
+        "processed": 1
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:15:26.974Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:16:23.333Z",
+      "scheduled_time_ms": 1792840583333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880676",
+      "started_at": "2026-10-24T11:16:24.568Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1235,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:16:23.333Z",
+      "scheduled_time_ms": 1792840583333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880676",
+      "started_at": "2026-10-24T11:16:24.568Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1235,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v10",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:16:23.333Z",
+      "scheduled_time_ms": 1792840583333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880676",
+      "started_at": "2026-10-24T11:16:24.568Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1235,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "run_id": "0af54d95a16f486185db142c651617bf",
+        "task_id": "57a30a61beea43ee85e48e748c12f314",
+        "decision": "notify",
+        "processed": 1
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:16:30.228Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:17:23.333Z",
+      "scheduled_time_ms": 1792840643333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880677",
+      "started_at": "2026-10-24T11:17:24.174Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 841,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:17:23.333Z",
+      "scheduled_time_ms": 1792840643333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880677",
+      "started_at": "2026-10-24T11:17:24.174Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 841,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v10",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:17:23.333Z",
+      "scheduled_time_ms": 1792840643333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880677",
+      "started_at": "2026-10-24T11:17:24.174Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 841,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880677",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:17:29.234Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:18:23.333Z",
+      "scheduled_time_ms": 1792840703333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880678",
+      "started_at": "2026-10-24T11:18:23.906Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 573,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:18:23.333Z",
+      "scheduled_time_ms": 1792840703333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880678",
+      "started_at": "2026-10-24T11:18:23.906Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 573,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v10",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:18:23.333Z",
+      "scheduled_time_ms": 1792840703333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880678",
+      "started_at": "2026-10-24T11:18:23.906Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 573,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880678",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:18:27.397Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:19:23.333Z",
+      "scheduled_time_ms": 1792840763333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880679",
+      "started_at": "2026-10-24T11:19:24.323Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 990,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:19:23.333Z",
+      "scheduled_time_ms": 1792840763333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880679",
+      "started_at": "2026-10-24T11:19:24.323Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 990,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v10",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v3",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:19:23.333Z",
+      "scheduled_time_ms": 1792840763333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880679",
+      "started_at": "2026-10-24T11:19:24.323Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 990,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880679",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:19:27.819Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:20:23.333Z",
+      "scheduled_time_ms": 1792840823333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880680",
+      "started_at": "2026-10-24T11:20:24.314Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 981,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:20:23.333Z",
+      "scheduled_time_ms": 1792840823333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880680",
+      "started_at": "2026-10-24T11:20:24.314Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 981,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v10",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:20:23.333Z",
+      "scheduled_time_ms": 1792840823333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880680",
+      "started_at": "2026-10-24T11:20:24.314Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 981,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880680",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:20:28.528Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:21:23.333Z",
+      "scheduled_time_ms": 1792840883333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880681",
+      "started_at": "2026-10-24T11:21:24.581Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1248,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:21:23.333Z",
+      "scheduled_time_ms": 1792840883333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880681",
+      "started_at": "2026-10-24T11:21:24.581Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1248,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v11",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:21:23.333Z",
+      "scheduled_time_ms": 1792840883333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880681",
+      "started_at": "2026-10-24T11:21:24.581Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1248,
+      "phase": "validation_replay",
+      "validation_kind": "TEST_intentional_same_key_replay",
+      "replay_key": "cf-cron:ucdte4eh02uv:29880673",
+      "http_status": 200,
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880673",
+        "duplicate": true
+      },
+      "status": "duplicate_requires_readback"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:21:23.333Z",
+      "scheduled_time_ms": 1792840883333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880681",
+      "started_at": "2026-10-24T11:21:24.581Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1248,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880681",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:21:27.963Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:22:23.333Z",
+      "scheduled_time_ms": 1792840943333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880682",
+      "started_at": "2026-10-24T11:22:23.916Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 583,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:22:23.333Z",
+      "scheduled_time_ms": 1792840943333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880682",
+      "started_at": "2026-10-24T11:22:23.916Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 583,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v11",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:22:23.333Z",
+      "scheduled_time_ms": 1792840943333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880682",
+      "started_at": "2026-10-24T11:22:23.916Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 583,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880682",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:22:28.685Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:23:23.333Z",
+      "scheduled_time_ms": 1792841003333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880683",
+      "started_at": "2026-10-24T11:23:24.069Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 736,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:23:23.333Z",
+      "scheduled_time_ms": 1792841003333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880683",
+      "started_at": "2026-10-24T11:23:24.069Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 736,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v11",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:23:23.333Z",
+      "scheduled_time_ms": 1792841003333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880683",
+      "started_at": "2026-10-24T11:23:24.069Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 736,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880683",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:23:28.154Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:24:23.333Z",
+      "scheduled_time_ms": 1792841063333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880684",
+      "started_at": "2026-10-24T11:24:24.012Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 679,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:24:23.333Z",
+      "scheduled_time_ms": 1792841063333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880684",
+      "started_at": "2026-10-24T11:24:24.012Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 679,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v11",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:24:23.333Z",
+      "scheduled_time_ms": 1792841063333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880684",
+      "started_at": "2026-10-24T11:24:24.012Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 679,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880684",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:24:25.717Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:25:23.333Z",
+      "scheduled_time_ms": 1792841123333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880685",
+      "started_at": "2026-10-24T11:25:23.974Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 641,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:25:23.333Z",
+      "scheduled_time_ms": 1792841123333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880685",
+      "started_at": "2026-10-24T11:25:23.974Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 641,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v11",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:25:23.333Z",
+      "scheduled_time_ms": 1792841123333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880685",
+      "started_at": "2026-10-24T11:25:23.974Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 641,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880685",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:25:25.522Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:26:23.333Z",
+      "scheduled_time_ms": 1792841183333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880686",
+      "started_at": "2026-10-24T11:26:24.386Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1053,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:26:23.333Z",
+      "scheduled_time_ms": 1792841183333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880686",
+      "started_at": "2026-10-24T11:26:24.386Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1053,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v11",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:26:23.333Z",
+      "scheduled_time_ms": 1792841183333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880686",
+      "started_at": "2026-10-24T11:26:24.386Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1053,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880686",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:26:28.617Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:27:23.333Z",
+      "scheduled_time_ms": 1792841243333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880687",
+      "started_at": "2026-10-24T11:27:24.184Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 851,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:27:23.333Z",
+      "scheduled_time_ms": 1792841243333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880687",
+      "started_at": "2026-10-24T11:27:24.184Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 851,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v11",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:27:23.333Z",
+      "scheduled_time_ms": 1792841243333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880687",
+      "started_at": "2026-10-24T11:27:24.184Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 851,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880687",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:27:27.678Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:28:23.333Z",
+      "scheduled_time_ms": 1792841303333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880688",
+      "started_at": "2026-10-24T11:28:24.063Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 730,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:28:23.333Z",
+      "scheduled_time_ms": 1792841303333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880688",
+      "started_at": "2026-10-24T11:28:24.063Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 730,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v11",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:28:23.333Z",
+      "scheduled_time_ms": 1792841303333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880688",
+      "started_at": "2026-10-24T11:28:24.063Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 730,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880688",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:28:27.616Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:29:23.333Z",
+      "scheduled_time_ms": 1792841363333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880689",
+      "started_at": "2026-10-24T11:29:23.874Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 541,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:29:23.333Z",
+      "scheduled_time_ms": 1792841363333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880689",
+      "started_at": "2026-10-24T11:29:23.874Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 541,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v11",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:29:23.333Z",
+      "scheduled_time_ms": 1792841363333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880689",
+      "started_at": "2026-10-24T11:29:23.874Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 541,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880689",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:29:26.980Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:30:23.333Z",
+      "scheduled_time_ms": 1792841423333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880690",
+      "started_at": "2026-10-24T11:30:24.420Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1087,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:30:23.333Z",
+      "scheduled_time_ms": 1792841423333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880690",
+      "started_at": "2026-10-24T11:30:24.420Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1087,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v11",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:30:23.333Z",
+      "scheduled_time_ms": 1792841423333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880690",
+      "started_at": "2026-10-24T11:30:24.420Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1087,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880690",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:30:29.265Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:31:23.333Z",
+      "scheduled_time_ms": 1792841483333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880691",
+      "started_at": "2026-10-24T11:31:24.591Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1258,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:31:23.333Z",
+      "scheduled_time_ms": 1792841483333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880691",
+      "started_at": "2026-10-24T11:31:24.591Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1258,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v11",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:31:23.333Z",
+      "scheduled_time_ms": 1792841483333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880691",
+      "started_at": "2026-10-24T11:31:24.591Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1258,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880691",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:31:29.548Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:32:23.333Z",
+      "scheduled_time_ms": 1792841543333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880692",
+      "started_at": "2026-10-24T11:32:24.423Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1090,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:32:23.333Z",
+      "scheduled_time_ms": 1792841543333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880692",
+      "started_at": "2026-10-24T11:32:24.423Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1090,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v11",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:32:23.333Z",
+      "scheduled_time_ms": 1792841543333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880692",
+      "started_at": "2026-10-24T11:32:24.423Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1090,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880692",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:32:31.782Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:33:23.333Z",
+      "scheduled_time_ms": 1792841603333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880693",
+      "started_at": "2026-10-24T11:33:24.231Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 898,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:33:23.333Z",
+      "scheduled_time_ms": 1792841603333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880693",
+      "started_at": "2026-10-24T11:33:24.231Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 898,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v11",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:33:23.333Z",
+      "scheduled_time_ms": 1792841603333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880693",
+      "started_at": "2026-10-24T11:33:24.231Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 898,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880693",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:33:28.204Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:34:23.333Z",
+      "scheduled_time_ms": 1792841663333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880694",
+      "started_at": "2026-10-24T11:34:24.681Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1348,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:34:23.333Z",
+      "scheduled_time_ms": 1792841663333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880694",
+      "started_at": "2026-10-24T11:34:24.681Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1348,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v11",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:34:23.333Z",
+      "scheduled_time_ms": 1792841663333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880694",
+      "started_at": "2026-10-24T11:34:24.681Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1348,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880694",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:34:28.932Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:35:23.333Z",
+      "scheduled_time_ms": 1792841723333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880695",
+      "started_at": "2026-10-24T11:35:23.981Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 648,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:35:23.333Z",
+      "scheduled_time_ms": 1792841723333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880695",
+      "started_at": "2026-10-24T11:35:23.981Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 648,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v11",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:35:23.333Z",
+      "scheduled_time_ms": 1792841723333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880695",
+      "started_at": "2026-10-24T11:35:23.981Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 648,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880695",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:35:27.397Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:36:23.333Z",
+      "scheduled_time_ms": 1792841783333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880696",
+      "started_at": "2026-10-24T11:36:24.064Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 731,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:36:23.333Z",
+      "scheduled_time_ms": 1792841783333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880696",
+      "started_at": "2026-10-24T11:36:24.064Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 731,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v11",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:36:23.333Z",
+      "scheduled_time_ms": 1792841783333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880696",
+      "started_at": "2026-10-24T11:36:24.064Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 731,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880696",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:36:29.322Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:37:23.333Z",
+      "scheduled_time_ms": 1792841843333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880697",
+      "started_at": "2026-10-24T11:37:23.839Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 506,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:37:23.333Z",
+      "scheduled_time_ms": 1792841843333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880697",
+      "started_at": "2026-10-24T11:37:23.839Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 506,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v11",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:37:23.333Z",
+      "scheduled_time_ms": 1792841843333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880697",
+      "started_at": "2026-10-24T11:37:23.839Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 506,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880697",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:37:26.791Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:38:23.333Z",
+      "scheduled_time_ms": 1792841903333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880698",
+      "started_at": "2026-10-24T11:38:23.910Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 577,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:38:23.333Z",
+      "scheduled_time_ms": 1792841903333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880698",
+      "started_at": "2026-10-24T11:38:23.910Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 577,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v11",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:38:23.333Z",
+      "scheduled_time_ms": 1792841903333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880698",
+      "started_at": "2026-10-24T11:38:23.910Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 577,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880698",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:38:27.429Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:39:23.333Z",
+      "scheduled_time_ms": 1792841963333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880699",
+      "started_at": "2026-10-24T11:39:23.789Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 456,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:39:23.333Z",
+      "scheduled_time_ms": 1792841963333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880699",
+      "started_at": "2026-10-24T11:39:23.789Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 456,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v11",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:39:23.333Z",
+      "scheduled_time_ms": 1792841963333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880699",
+      "started_at": "2026-10-24T11:39:23.789Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 456,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880699",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:39:27.709Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:40:23.333Z",
+      "scheduled_time_ms": 1792842023333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880700",
+      "started_at": "2026-10-24T11:40:24.243Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 910,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:40:23.333Z",
+      "scheduled_time_ms": 1792842023333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880700",
+      "started_at": "2026-10-24T11:40:24.243Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 910,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v11",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:40:23.333Z",
+      "scheduled_time_ms": 1792842023333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880700",
+      "started_at": "2026-10-24T11:40:24.243Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 910,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880700",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:40:27.595Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:41:23.333Z",
+      "scheduled_time_ms": 1792842083333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880701",
+      "started_at": "2026-10-24T11:41:24.923Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1590,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:41:23.333Z",
+      "scheduled_time_ms": 1792842083333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880701",
+      "started_at": "2026-10-24T11:41:24.923Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1590,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v12",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:41:23.333Z",
+      "scheduled_time_ms": 1792842083333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880701",
+      "started_at": "2026-10-24T11:41:24.923Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 1590,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880701",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:41:28.781Z"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:42:23.333Z",
+      "scheduled_time_ms": 1792842143333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880702",
+      "started_at": "2026-10-24T11:42:23.858Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 525,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:42:23.333Z",
+      "scheduled_time_ms": 1792842143333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880702",
+      "started_at": "2026-10-24T11:42:23.858Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 525,
+      "phase": "health",
+      "status": "failed",
+      "http_status": null,
+      "error_code": "health_network_timeout_or_json",
+      "error_name": "TimeoutError",
+      "diagnostic": "The operation was aborted due to timeout"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:43:23.333Z",
+      "scheduled_time_ms": 1792842203333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880703",
+      "started_at": "2026-10-24T11:43:24.015Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 682,
+      "phase": "started"
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:43:23.333Z",
+      "scheduled_time_ms": 1792842203333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880703",
+      "started_at": "2026-10-24T11:43:24.015Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 682,
+      "phase": "health",
+      "status": "passed",
+      "http_status": 200,
+      "product_release": "deno-close-v12",
+      "error_code": null
+    },
+    {
+      "source": "cloudflare_cron",
+      "revision": "cf-cron-v4",
+      "cron": "* * * * *",
+      "scheduled_at": "2026-10-24T11:43:23.333Z",
+      "scheduled_time_ms": 1792842203333,
+      "request_key": "cf-cron:ucdte4eh02uv:29880703",
+      "started_at": "2026-10-24T11:43:24.015Z",
+      "scheduler_mode": "active",
+      "lateness_ms": 682,
+      "phase": "tick",
+      "attempt": 1,
+      "http_status": 200,
+      "status": "accepted_requires_business_readback",
+      "business": {
+        "key": "cf-cron:ucdte4eh02uv:29880703",
+        "processed": 0
+      },
+      "error_code": null,
+      "finished_at": "2026-10-24T11:43:27.803Z"
+    }
+  ],
+  "tick_slot_count": 30,
+  "tick_keys": [
+    "cf-cron:ucdte4eh02uv:29880673",
+    "cf-cron:ucdte4eh02uv:29880674",
+    "cf-cron:ucdte4eh02uv:29880675",
+    "cf-cron:ucdte4eh02uv:29880676",
+    "cf-cron:ucdte4eh02uv:29880677",
+    "cf-cron:ucdte4eh02uv:29880678",
+    "cf-cron:ucdte4eh02uv:29880679",
+    "cf-cron:ucdte4eh02uv:29880680",
+    "cf-cron:ucdte4eh02uv:29880681",
+    "cf-cron:ucdte4eh02uv:29880682",
+    "cf-cron:ucdte4eh02uv:29880683",
+    "cf-cron:ucdte4eh02uv:29880684",
+    "cf-cron:ucdte4eh02uv:29880685",
+    "cf-cron:ucdte4eh02uv:29880686",
+    "cf-cron:ucdte4eh02uv:29880687",
+    "cf-cron:ucdte4eh02uv:29880688",
+    "cf-cron:ucdte4eh02uv:29880689",
+    "cf-cron:ucdte4eh02uv:29880690",
+    "cf-cron:ucdte4eh02uv:29880691",
+    "cf-cron:ucdte4eh02uv:29880692",
+    "cf-cron:ucdte4eh02uv:29880693",
+    "cf-cron:ucdte4eh02uv:29880694",
+    "cf-cron:ucdte4eh02uv:29880695",
+    "cf-cron:ucdte4eh02uv:29880696",
+    "cf-cron:ucdte4eh02uv:29880697",
+    "cf-cron:ucdte4eh02uv:29880698",
+    "cf-cron:ucdte4eh02uv:29880699",
+    "cf-cron:ucdte4eh02uv:29880700",
+    "cf-cron:ucdte4eh02uv:29880701",
+    "cf-cron:ucdte4eh02uv:29880703"
+  ],
+  "manual_tick_sent": false,
+  "notes": [
+    "Cloud scheduler events, local tail is observation only.",
+    "A successful HTTP result still requires database business readback."
+  ]
+}

@@ -1,0 +1,86 @@
+Browser tab: 1650485156, Title: "你好 · 自选股监控", URL: "https://ucdte4eh02uv.meoo.info/".
+0 AXWebArea 你好 · 自选股监控, URL: ucdte4eh02uv.meoo.info/
+	1 container
+		2 container root
+			3 container
+				4 text 你好
+				5 button 监控台
+				6 button 模型设置
+				7 button 退 出
+			8 container
+				9 image info-circle
+				10 text 站内持久化提醒，不发送短信或邮件。关闭页面后的运行依赖独立服务端调度。 仅沪深A股日收盘（不复权/CNY）。缺交易日覆盖时无法判断；独立调度状态以实际执行记录为准。
+			11 text AUDIT TRAIL / 任务详情
+			12 heading 最终验收 · 招商银行日收盘低于39.5元 v1, Value: 1
+				13 text 最终验收 · 招商银行日收盘低于39.5元 v
+			14 text 日收盘价（不复权/CNY） < 39.5 元
+			15 button 刷 新
+			16 button 编 辑
+			17 button 暂 停
+			18 button 删 除
+			19 container
+				20 text 已启用
+				21 container 检查与提醒说明
+					22 container
+						23 image info-circle
+						24 text 条件未满足 本次检查未达到你设置的条件，因此没有发送提醒。
+					25 container
+						26 text 2026-10-23 收盘价 ： 41.77 CNY
+					27 container
+						28 text 你的条件： 日收盘价 低于 39.5  元 ·  未满足
+					29 container
+						30 text 来源： fuyao  · 不复权 · 日期不是精确成交时间
+					31 container
+						32 text 当前规则 v 1  最近检查： 2026/10/24 22:38:28
+						33 text 执行来源： 云调度请求
+						34 text 计划检查时间（可能排队） ： 2026/10/25 15:15:00
+					35 text 近期云调度请求已完成
+					36 text 最近云调度完成： 2026/10/24 22:38:28
+					37 container
+						38 text 按已认证tick的约定请求键识别；近期成功不代表每个历史时隙都成功。  状态读取于  2026/10/24 22:38:34 ，刷新可获取最新状态。
+			39 heading 执行时间线, Value: 2
+				40 text 执行时间线
+			41 container
+				42 text 2026/10/24 22:38:27 · v1 · 成功 · 条件未满足 判断： 未满足  ·  条件未满足  · 判断时间  2026/10/24 22:38:28 交易状态： 已完成日收盘  · 来源： https://fuyao.aicubes.cn/api/a-share/calendar/trading-days p1 ： 日收盘价 低于 39.5  元
+				43 container
+					44 text 实际值  41.77  ·  未满足
+				45 container
+					46 text 质量  有效  ·  有效
+				47 container
+					48 text 来源  fuyao  /  https://fuyao.aicubes.cn/api/a-share/prices/historical?thscode=600036.SH&interval=1d&adjust=none&start=1789747200000&end=1792771200000
+				49 container
+					50 text 交易日期 2026-10-23 · 不复权 · CNY
+					51 text 取得时间  2026/10/24 18:44:19
+			52 container
+				53 button (disabled) 上一页
+				54 button (disabled) 下一页
+			55 heading 不可变规则版本, Value: 2
+				56 text 不可变规则版本
+			57 button (collapsed) v1 · 2026/10/24 22:37:44 · 创建草稿, Secondary Actions: Expand
+				58 text v
+				59 text 1
+				60 text  · 
+				61 text 2026/10/24 22:37:44
+				62 text  · 
+				63 text 创建草稿
+			64 heading 生命周期、空档与恢复, Value: 2
+				65 text 生命周期、空档与恢复
+			66 button (collapsed) 2026/10/24 22:37:45 · activate, Secondary Actions: Expand
+				67 text 2026/10/24 22:37:45
+				68 text  · 
+				69 text activate
+			70 button (collapsed) 2026/10/24 22:37:44 · created, Secondary Actions: Expand
+				71 text 2026/10/24 22:37:44
+				72 text  · 
+				73 text created
+			74 heading 该任务提醒, Value: 2
+				75 text 该任务提醒
+			76 container
+				77 text 所有时间均显示为北京时间。
+				78 text 运行状态以服务端实际记录为准。
+		79 container meoo-brand-watermark
+			80 image Meoo
+			81 text By  Meoo 秒悟
+			82 button ×
+
+The focused UI element is 15 button 刷 新

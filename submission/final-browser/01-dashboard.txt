@@ -1,0 +1,317 @@
+Browser tab: 1650485156, Title: "你好 · 自选股监控", URL: "https://ucdte4eh02uv.meoo.info/".
+0 AXWebArea 你好 · 自选股监控, URL: ucdte4eh02uv.meoo.info/
+	1 container
+		2 container root
+			3 container
+				4 text 你好
+				5 button 监控台
+				6 button 模型设置
+				7 button 退 出
+			8 container
+				9 image info-circle
+				10 text 站内持久化提醒，不发送短信或邮件。关闭页面后的运行依赖独立服务端调度。 仅沪深A股日收盘（不复权/CNY）。缺交易日覆盖时无法判断；独立调度状态以实际执行记录为准。
+			96 heading 你好，欢迎回来。, Value: 1
+				97 text 你好，欢迎回来。
+			98 text 先看看哪些监控有新结果。
+			99 image 悬浮的雪球风格监控助手；电子眼会随鼠标移动。
+			100 heading 今日监控, Value: 2
+				101 text 今日监控
+			102 container
+				103 text 9  项任务 ·  8  项已启用 ·  6  条未读
+			104 button 刷 新
+			107 button ＋ 创建监控
+			385 container
+				386 link 深市自动验收 · 宁德时代（不满足）
+					387 text 深市自动验收 · 宁德时代（不满足）
+				388 text 已启用
+				389 text 宁德时代 · 300750.SZ
+				390 heading 日收盘价（不复权/CNY） < 236.6 元, Value: 3
+					391 text 日收盘价（不复权/CNY） < 236.6 元
+				392 container 检查与提醒说明
+					393 container
+						394 image info-circle
+						395 text 条件未满足 本次检查未达到你设置的条件，因此没有发送提醒。
+					396 container
+						397 text 2026-10-23 收盘价 ： 237.6 CNY
+					398 container
+						399 text 你的条件： 日收盘价 低于 236.6  元 ·  未满足
+					400 container
+						401 text 来源： fuyao  · 不复权 · 日期不是精确成交时间
+					402 container
+						403 text 当前规则 v 1  最近检查： 2026/10/24 20:20:28
+						404 text 执行来源： 云调度请求
+						405 text 计划检查时间（可能排队） ： 2026/10/25 15:15:00
+					406 text 近期云调度请求已完成
+					407 text 最近云调度完成： 2026/10/24 22:52:29
+					408 container
+						409 text 按已认证tick的约定请求键识别；近期成功不代表每个历史时隙都成功。  状态读取于  2026/10/24 22:53:19 ，刷新可获取最新状态。
+				410 container
+					411 button 查看证据
+					412 button 编 辑
+					413 button 暂 停
+				414 link 深市自动验收 · 平安银行（满足）
+					415 text 深市自动验收 · 平安银行（满足）
+				416 text 已启用
+				417 text 平安银行 · 000001.SZ
+				418 heading 日收盘价（不复权/CNY） < 12.2 元, Value: 3
+					419 text 日收盘价（不复权/CNY） < 12.2 元
+				420 container 检查与提醒说明
+					421 container
+						422 image check-circle
+						423 text 已生成站内提醒 本次满足条件，提醒已保存到站内通知。
+					424 container
+						425 text 2026-10-23 收盘价 ： 11.2 CNY
+					426 container
+						427 text 你的条件： 日收盘价 低于 12.2  元 ·  满足
+					428 container
+						429 text 来源： fuyao  · 不复权 · 日期不是精确成交时间
+					430 container
+						431 text 当前规则 v 1  最近检查： 2026/10/24 20:19:27
+						432 text 执行来源： 云调度请求
+						433 text 计划检查时间（可能排队） ： 2026/10/25 15:15:00
+					434 text 近期云调度请求已完成
+					435 text 最近云调度完成： 2026/10/24 22:52:29
+					436 container
+						437 text 按已认证tick的约定请求键识别；近期成功不代表每个历史时隙都成功。  状态读取于  2026/10/24 22:53:19 ，刷新可获取最新状态。
+				438 container
+					439 button 查看证据 1
+						440 text 查看证据
+						441 text 1
+					442 button 编 辑
+					443 button 暂 停
+				444 link 寒武纪日收盘价低于900元提醒
+					445 text 寒武纪日收盘价低于900元提醒
+				446 text 已启用
+				447 text 寒武纪 · 688256.SH
+				448 heading 日收盘价（不复权/CNY） < 932 元, Value: 3
+					449 text 日收盘价（不复权/CNY） < 932 元
+				450 container 检查与提醒说明
+					451 container
+						452 image info-circle
+						453 text 条件未满足 本次检查未达到你设置的条件，因此没有发送提醒。
+					454 container
+						455 text 2026-10-23 收盘价 ： 932.2 CNY
+					456 container
+						457 text 你的条件： 日收盘价 低于 932  元 ·  未满足
+					458 container
+						459 text 来源： fuyao  · 不复权 · 日期不是精确成交时间
+					460 container
+						461 text 当前规则 v 1  最近检查： 2026/10/24 19:57:30
+						462 text 执行来源： 云调度请求
+						463 text 计划检查时间（可能排队） ： 2026/10/25 15:15:00
+					464 text 近期云调度请求已完成
+					465 text 最近云调度完成： 2026/10/24 22:52:29
+					466 container
+						467 text 按已认证tick的约定请求键识别；近期成功不代表每个历史时隙都成功。  状态读取于  2026/10/24 22:53:19 ，刷新可获取最新状态。
+				468 container
+					469 button 查看证据
+					470 button 编 辑
+					471 button 暂 停
+				472 link UI自然语言日收盘自动演示
+					473 text UI自然语言日收盘自动演示
+				474 text 已启用
+				475 text 招商银行 · 600036.SH
+				476 heading 日收盘价（不复权/CNY） < 42.77 元, Value: 3
+					477 text 日收盘价（不复权/CNY） < 42.77 元
+				478 container 检查与提醒说明
+					479 container
+						480 image check-circle
+						481 text 已生成站内提醒 本次满足条件，提醒已保存到站内通知。
+					482 container
+						483 text 2026-10-23 收盘价 ： 41.77 CNY
+					484 container
+						485 text 你的条件： 日收盘价 低于 42.77  元 ·  满足
+					486 container
+						487 text 来源： fuyao  · 不复权 · 日期不是精确成交时间
+					488 container
+						489 text 当前规则 v 1  最近检查： 2026/10/24 19:16:30
+						490 text 执行来源： 云调度请求
+						491 text 计划检查时间（可能排队） ： 2026/10/25 15:15:00
+					492 text 近期云调度请求已完成
+					493 text 最近云调度完成： 2026/10/24 22:52:29
+					494 container
+						495 text 按已认证tick的约定请求键识别；近期成功不代表每个历史时隙都成功。  状态读取于  2026/10/24 22:53:19 ，刷新可获取最新状态。
+				496 container
+					497 button 查看证据 1
+						498 text 查看证据
+						499 text 1
+					500 button 编 辑
+					501 button 暂 停
+				502 link 自动日收盘演示 · 中国平安（不满足，待独立调度）
+					503 text 自动日收盘演示 · 中国平安（不满足，待独立调度）
+				504 text 已启用
+				505 text 中国平安 · 601318.SH
+				506 heading 日收盘价（不复权/CNY） < 50.76 元, Value: 3
+					507 text 日收盘价（不复权/CNY） < 50.76 元
+				508 container 检查与提醒说明
+					509 container
+						510 image info-circle
+						511 text 条件未满足 本次检查未达到你设置的条件，因此没有发送提醒。
+					512 container
+						513 text 2026-10-23 收盘价 ： 51.76 CNY
+					514 container
+						515 text 你的条件： 日收盘价 低于 50.76  元 ·  未满足
+					516 container
+						517 text 来源： fuyao  · 不复权 · 日期不是精确成交时间
+					518 container
+						519 text 当前规则 v 1  最近检查： 2026/10/24 19:15:26
+						520 text 执行来源： 云调度请求
+						521 text 计划检查时间（可能排队） ： 2026/10/25 15:15:00
+					522 text 近期云调度请求已完成
+					523 text 最近云调度完成： 2026/10/24 22:52:29
+					524 container
+						525 text 按已认证tick的约定请求键识别；近期成功不代表每个历史时隙都成功。  状态读取于  2026/10/24 22:53:19 ，刷新可获取最新状态。
+				526 container
+					527 button 查看证据
+					528 button 编 辑
+					529 button 暂 停
+				530 link 自动日收盘演示 · 贵州茅台（满足，待独立调度）
+					531 text 自动日收盘演示 · 贵州茅台（满足，待独立调度）
+				532 text 已启用
+				533 text 贵州茅台 · 600519.SH
+				534 heading 日收盘价（不复权/CNY） < 1336.0 元, Value: 3
+					535 text 日收盘价（不复权/CNY） < 1336.0 元
+				536 container 检查与提醒说明
+					537 container
+						538 image check-circle
+						539 text 已生成站内提醒 本次满足条件，提醒已保存到站内通知。
+					540 container
+						541 text 2026-10-23 收盘价 ： 1335.0 CNY
+					542 container
+						543 text 你的条件： 日收盘价 低于 1336.0  元 ·  满足
+					544 container
+						545 text 来源： fuyao  · 不复权 · 日期不是精确成交时间
+					546 container
+						547 text 当前规则 v 1  最近检查： 2026/10/24 19:14:29
+						548 text 执行来源： 云调度请求
+						549 text 计划检查时间（可能排队） ： 2026/10/25 15:15:00
+					550 text 近期云调度请求已完成
+					551 text 最近云调度完成： 2026/10/24 22:52:29
+					552 container
+						553 text 按已认证tick的约定请求键识别；近期成功不代表每个历史时隙都成功。  状态读取于  2026/10/24 22:53:19 ，刷新可获取最新状态。
+				554 container
+					555 button 查看证据 1
+						556 text 查看证据
+						557 text 1
+					558 button 编 辑
+					559 button 暂 停
+				560 link 真实行情口径验收（unknown，不模拟触发）
+					561 text 真实行情口径验收（unknown，不模拟触发）
+				562 text 已暂停
+				563 text 贵州茅台 · 600519.SH
+				564 heading 旧盘中价 > 1500 元, Value: 3
+					565 text 旧盘中价 > 1500 元
+				566 container 检查与提醒说明
+					567 container
+						568 image info-circle
+						569 text 已暂停检查 暂停期间不再检查或发送新提醒，下方依据仅为最近一次历史检查。
+					570 container
+						571 text 本次价格 ： 1335 CNY
+					572 container
+						573 text 你的条件： 旧盘中价 高于 1500  元 ·  无法判断
+					574 text 旧盘中报价缺少逐股成交时间，无法判断
+					575 container
+						576 text 来源： fuyao
+					577 container
+						578 text 当前规则 v 1  最近检查： 2026/10/24 17:37:20
+						579 text 执行来源： 其他已认证请求（非自动来源证明）
+						580 text 未安排（任务未启用） ： —
+					581 text 近期云调度请求已完成
+					582 text 最近云调度完成： 2026/10/24 22:52:29
+					583 container
+						584 text 按已认证tick的约定请求键识别；近期成功不代表每个历史时隙都成功。  状态读取于  2026/10/24 22:53:19 ，刷新可获取最新状态。
+				585 container
+					586 button 查看证据
+					587 button 编 辑
+					588 button 恢 复
+				589 link UI日期提醒演示（等待独立调度）
+					590 text UI日期提醒演示（等待独立调度）
+				591 text 已启用
+				592 text 日历提醒
+				593 heading 一次性提醒 · 2026/10/24 17:45:00, Value: 3
+					594 text 一次性提醒 · 2026/10/24 17:45:00
+				595 container 检查与提醒说明
+					596 container
+						597 image check-circle
+						598 text 一次性提醒已完成 已生成站内提醒，无下一次检查。
+					599 container
+						600 text 原定提醒： 2026/10/24 17:45:00 ；实际检查： 2026/10/24 19:13:28 （迟到 89 分钟）
+					601 container
+						602 text 当前规则 v 1  最近检查： 2026/10/24 19:13:28
+						603 text 执行来源： 云调度请求
+						604 text 无（一次性提醒已结束） ： —
+					605 text 近期云调度请求已完成
+					606 text 最近云调度完成： 2026/10/24 22:52:29
+					607 container
+						608 text 按已认证tick的约定请求键识别；近期成功不代表每个历史时隙都成功。  状态读取于  2026/10/24 22:53:19 ，刷新可获取最新状态。
+				609 container
+					610 button 查看证据 1
+						611 text 查看证据
+						612 text 1
+					613 button 编 辑
+					614 button 暂 停
+				615 link 真实日期链路验收（手动功能检查，非自动调度）
+					616 text 真实日期链路验收（手动功能检查，非自动调度）
+				617 text 已启用
+				618 text 日历提醒
+				619 heading 一次性提醒 · 2026/10/24 17:23:54, Value: 3
+					620 text 一次性提醒 · 2026/10/24 17:23:54
+				621 container 检查与提醒说明
+					622 container
+						623 image check-circle
+						624 text 一次性提醒已完成 已生成站内提醒，无下一次检查。
+					625 container
+						626 text 原定提醒： 2026/10/24 17:23:54 ；实际检查： 2026/10/24 17:26:58 （迟到 4 分钟）
+					627 container
+						628 text 当前规则 v 1  最近检查： 2026/10/24 17:26:58
+						629 text 执行来源： 其他已认证请求（非自动来源证明）
+						630 text 无（一次性提醒已结束） ： —
+					631 text 近期云调度请求已完成
+					632 text 最近云调度完成： 2026/10/24 22:52:29
+					633 container
+						634 text 按已认证tick的约定请求键识别；近期成功不代表每个历史时隙都成功。  状态读取于  2026/10/24 22:53:19 ，刷新可获取最新状态。
+				635 container
+					636 button 查看证据
+					637 button 编 辑
+					638 button 暂 停
+			353 heading 站内提醒, Value: 2
+				354 text 站内提醒
+			355 container
+				356 text TEST 漏检恢复验收（真实时钟/云调度） 已读 2026/10/24 21:40:29
+				357 button 执行依据
+			358 container
+				359 text 深市自动验收 · 平安银行（满足） 未读 2026/10/24 20:19:27
+				360 button 执行依据
+				361 button 标为已读
+			362 container
+				363 text UI自然语言日收盘自动演示 未读 2026/10/24 19:16:30
+				364 button 执行依据
+				365 button 标为已读
+			366 container
+				367 text 自动日收盘演示 · 贵州茅台（满足，待独立调度） 未读 2026/10/24 19:14:29
+				368 button 执行依据
+				369 button 标为已读
+			370 container
+				371 text UI日期提醒演示（等待独立调度） 未读 2026/10/24 19:13:28
+				372 button 执行依据
+				373 button 标为已读
+			374 container
+				375 text 租约恢复验收（真实时钟中断演示） 未读 2026/10/24 17:34:43
+				376 button 执行依据
+				377 button 标为已读
+			378 container
+				379 text 事务验收：不同请求竞争 未读 2026/10/24 17:27:09
+				380 button 执行依据
+				381 button 标为已读
+			382 container
+				383 text 真实日期链路验收（手动功能检查，非自动调度） 已读 2026/10/24 17:26:58
+				384 button 执行依据
+			88 container
+				89 text 所有时间均显示为北京时间。
+				90 text 运行状态以服务端实际记录为准。
+		91 container meoo-brand-watermark
+			92 image Meoo
+			93 text By  Meoo 秒悟
+			94 button ×
+
+The focused UI element is 5 button 监控台

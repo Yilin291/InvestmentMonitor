@@ -1,0 +1,166 @@
+{
+  "started_at": "2026-10-24T10:51:41.181Z",
+  "scope": "live_product_close_rule_protocol_not_V0",
+  "before": {
+    "audits": 7,
+    "tasks": 10
+  },
+  "cases": [
+    {
+      "name": "all",
+      "text": "贵州茅台日收盘价低于1336元且高于1000元提醒我，滚动冷却3600秒。",
+      "status": 200,
+      "response": {
+        "drafts": [
+          {
+            "name": "贵州茅台日收盘价区间提醒",
+            "instrument_id": "CN.SH.600519",
+            "rule": {
+              "kind": "close_price_group",
+              "combinator": "all",
+              "conditions": [
+                {
+                  "id": "p1",
+                  "field": "close_price",
+                  "operator": "lt",
+                  "value": "1336",
+                  "currency": "CNY"
+                },
+                {
+                  "id": "p2",
+                  "field": "close_price",
+                  "operator": "gt",
+                  "value": "1000",
+                  "currency": "CNY"
+                }
+              ]
+            },
+            "schedule": {
+              "mode": "daily_close",
+              "timezone": "Asia/Shanghai",
+              "interval_seconds": 86400
+            },
+            "notification_policy": {
+              "mode": "on_episode",
+              "cooldown_seconds": 3600
+            }
+          }
+        ],
+        "questions": [],
+        "unsupported": [],
+        "status": "ready",
+        "model": "deepseek-flash",
+        "prompt_version": "watchlist-close-v1"
+      },
+      "passed": true
+    },
+    {
+      "name": "any",
+      "text": "中国平安日收盘价高于52元或低于50元提醒我，滚动冷却86400秒。",
+      "status": 200,
+      "response": {
+        "drafts": [
+          {
+            "name": "中国平安日收盘价高于52元或低于50元提醒",
+            "instrument_id": "CN.SH.601318",
+            "rule": {
+              "kind": "close_price_group",
+              "combinator": "any",
+              "conditions": [
+                {
+                  "id": "p1",
+                  "field": "close_price",
+                  "operator": "gt",
+                  "value": "52",
+                  "currency": "CNY"
+                },
+                {
+                  "id": "p2",
+                  "field": "close_price",
+                  "operator": "lt",
+                  "value": "50",
+                  "currency": "CNY"
+                }
+              ]
+            },
+            "schedule": {
+              "mode": "daily_close",
+              "timezone": "Asia/Shanghai",
+              "interval_seconds": 86400
+            },
+            "notification_policy": {
+              "mode": "on_episode",
+              "cooldown_seconds": 86400
+            }
+          }
+        ],
+        "questions": [],
+        "unsupported": [],
+        "status": "ready",
+        "model": "deepseek-flash",
+        "prompt_version": "watchlist-close-v1"
+      },
+      "passed": true
+    },
+    {
+      "name": "ambiguous",
+      "text": "茅台日收盘价格到了提醒我。",
+      "status": 200,
+      "response": {
+        "drafts": [],
+        "questions": [
+          "“茅台”请确认是否为列表中的贵州茅台（CN.SH.600519）？若不是，请先搜索核验其他标的。",
+          "请补充触发阈值：日收盘价达到多少元（CNY）时提醒？",
+          "请明确触发方向：是收盘价大于或等于该价格时提醒，还是小于或等于该价格时提醒？",
+          "“日收盘”提醒请确认频率口径：按自然日每天一次，还是按滚动24小时一次？（当前仅支持滚动24小时冷却，自然日策略未支持）"
+        ],
+        "unsupported": [],
+        "status": "needs_clarification",
+        "model": "deepseek-flash",
+        "prompt_version": "watchlist-close-v1"
+      },
+      "passed": true
+    },
+    {
+      "name": "intraday",
+      "text": "贵州茅台实时最新成交价低于1336元提醒我。",
+      "status": 200,
+      "response": {
+        "drafts": [],
+        "questions": [
+          "当前仅支持最新已完成交易日的日收盘价，不支持实时或盘中价格。是否明确改为日收盘规则？"
+        ],
+        "unsupported": [
+          "intraday_price"
+        ],
+        "status": "needs_clarification"
+      },
+      "passed": true
+    },
+    {
+      "name": "unsupported",
+      "text": "账户余额低于100元提醒我。",
+      "status": 200,
+      "response": {
+        "drafts": [],
+        "questions": [
+          "你希望提醒的“账户余额”具体指哪个账户或哪类资金？例如证券账户可用资金、银行卡余额等，以及该余额的数据来源应如何获取？",
+          "余额低于100元的判断以什么时间点或频率进行（例如每日固定时间检查），以及低于阈值后希望以什么方式提醒你？"
+        ],
+        "unsupported": [
+          "账户余额/资金数据查询与监控：当前不支持读取或监控账户余额，因此无法创建“账户余额低于100元”的提醒"
+        ],
+        "status": "needs_clarification",
+        "model": "deepseek-flash",
+        "prompt_version": "watchlist-close-v1"
+      },
+      "passed": true
+    }
+  ],
+  "after": {
+    "audits": 12,
+    "tasks": 10
+  },
+  "passed": true,
+  "finished_at": "2026-10-24T10:52:02.715Z"
+}

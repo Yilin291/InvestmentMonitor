@@ -1,0 +1,7 @@
+{
+  "name": "tonghuashun-tick-scheduler",
+  "private": true,
+  "type": "module",
+  "scripts": {"check": "node --test worker.test.mjs"},
+  "devDependencies": {"wrangler": "4.152.0"}
+}

@@ -1,0 +1,84 @@
+{
+  "checked_at": "2026-10-24T11:44:51.540397+00:00",
+  "evidence": [
+    "validation/evidence/cloud_events_final_20261024T1144Z.json",
+    "validation/evidence/cloud_business_final_20261024T1144Z.json"
+  ],
+  "checks": {
+    "at_least_three_slots": true,
+    "at_least_30_minutes": true,
+    "no_missing_minute": false,
+    "all_slots_have_accepted_response": true,
+    "all_slots_persisted": true,
+    "key_matches_planned_minute": true,
+    "task_48bf9e848e5a4b29ba47241a4636ab3e": true,
+    "task_67c22ac8c03742a9939a6f4fa98c278b": true,
+    "task_546597e801114893915b4fa98c978d0a": true,
+    "task_57a30a61beea43ee85e48e748c12f314": true,
+    "real_close_semantics_67c22ac8c03742a9939a6f4fa98c278b": true,
+    "real_close_semantics_546597e801114893915b4fa98c978d0a": true,
+    "real_close_semantics_57a30a61beea43ee85e48e748c12f314": true,
+    "cloud_same_key_replay": true,
+    "observed_product_redeploy": true,
+    "no_recorded_primary_failure": false
+  },
+  "passed": false,
+  "slot_count": 30,
+  "observed_minutes": 30,
+  "product_releases": [
+    "deno-close-v10",
+    "deno-close-v11",
+    "deno-close-v12"
+  ],
+  "max_lateness_ms": 1590,
+  "tasks": [
+    {
+      "task_id": "48bf9e848e5a4b29ba47241a4636ab3e",
+      "runs": 1,
+      "notification_ids": [
+        "928d0f1735a940f89b73f620bbe50d2e"
+      ],
+      "run_ids": [
+        "d30d9a01269d47c5bba771b8854df16f"
+      ],
+      "passed": true
+    },
+    {
+      "task_id": "67c22ac8c03742a9939a6f4fa98c278b",
+      "runs": 1,
+      "notification_ids": [
+        "6f18ade4d2d34ec9a5040295f453bf3d"
+      ],
+      "run_ids": [
+        "522e50acd7474688b7a19f7575d160bc"
+      ],
+      "passed": true
+    },
+    {
+      "task_id": "546597e801114893915b4fa98c978d0a",
+      "runs": 1,
+      "notification_ids": [],
+      "run_ids": [
+        "3c652b8c53ec470aae42a8b3ebd7fb3b"
+      ],
+      "passed": true
+    },
+    {
+      "task_id": "57a30a61beea43ee85e48e748c12f314",
+      "runs": 1,
+      "notification_ids": [
+        "af97828457b34349a322eff00f921dd9"
+      ],
+      "run_ids": [
+        "0af54d95a16f486185db142c651617bf"
+      ],
+      "passed": true
+    }
+  ],
+  "limits": [
+    "Only this observed window is assessed; no promise of indefinite availability.",
+    "Scheduled one-off duplicate replay is explicitly TEST; primary slots are real cron execution.",
+    "Cached real completed daily bars were reused; this is not live intraday validation.",
+    "Database readback is read-only, not a disaster-recovery restore."
+  ]
+}

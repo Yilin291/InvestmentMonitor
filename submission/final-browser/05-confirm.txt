@@ -1,0 +1,10 @@
+Browser tab: 1650485156, Title: "你好 · 自选股监控", URL: "https://ucdte4eh02uv.meoo.info/".
+0 AXWebArea 你好 · 自选股监控, URL: ucdte4eh02uv.meoo.info/
+	1 container 确认最终规则并启用
+		2 container
+			3 image exclamation-circle
+			4 text 确认最终规则并启用 日收盘价（不复权/CNY） < 39.5 元 仅站内提醒；数据不可用时无法判断。价格冷却  86400  秒；首次满足可提醒。
+			5 button Cancel
+			6 button OK
+
+The focused UI element is 6 button OK

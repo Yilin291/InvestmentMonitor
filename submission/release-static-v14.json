@@ -1,0 +1,39 @@
+{
+  "release": {
+    "status": "success",
+    "mode": "static",
+    "version": 14,
+    "active": true,
+    "artifactId": "I3b84HPPDhF9bzCFRuzxvgPS4L0Fhg3R",
+    "commitId": "bbcd0f581608847a1dbf3f894e33b02d33b6910f",
+    "createdAt": "2026-10-24T14:25:51.772Z",
+    "accessUrl": "https://ucdte4eh02uv.meoo.info",
+    "command": "meoo --json deploy --skip-build --skip-push --project ucdte4eh02uv --force",
+    "sandboxSync": "skipped",
+    "backendSync": "skipped"
+  },
+  "cause": "The registered --beam-angle used inherits:false, so ::before/::after received its initial value rather than the parent animation.",
+  "fix": "Set @property --beam-angle inherits:true so the conic-gradient beam on pseudo-elements follows the animated parent angle.",
+  "accessibility": "prefers-reduced-motion still stops the loop by design and leaves a static beam.",
+  "build": "VITE_API_PREFIX=/sb-api/functions/v1/watchlist-api npm --prefix frontend run build (exit 0)",
+  "dist_sha256": {
+    "assets/index-Cn-auN_y.js": "0b42be74d089048906a9156795e81945325591b4a1d3f7e146ced1d7f59825a7",
+    "assets/index-DD67_Fsf.css": "035a65f25822068f8649076009dfe48d5af27be52e5d45eefa52d5464237b61f",
+    "assets/three.module-BtCAaDxU.js": "b1117df3c088a1be58f4166a5f4c9e688120c169d497ddac46c044c3c5517c9c",
+    "index.html": "cd5714a2d44c6e07371fc5328d8b4dddfa3ae2b86f2b395a1c6ad61fa21767a2"
+  },
+  "source_sha256": {
+    "frontend/index.html": "8181b75a41fc2ae7a66614614771cdc8adf2ac3d795bf8998534c26bb4d45a36",
+    "frontend/src.jsx": "5099afcf886b5a69c1534ca301a2e7cebb6f2eb4fc5e027a960e7bd04f8c4a83",
+    "frontend/style.css": "31d9b17ec56a5cd82bed279a749a8a788860dfa5758f40d352a6fb68bee60b3c",
+    "frontend/components/SnowballRobot.jsx": "ec78acdcda026020cf8ee80777c9f8a70563d4749f61e796a48dad53db4f476e",
+    "frontend/vendor/three.module.js": "ce1fa418de16a19495a9f72495580e3015d7745c296d3ce0485897f902ddedfb",
+    "frontend/vendor/THREE-LICENSE.txt": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+  },
+  "rollback_archive": "artifacts/rollback-static-v13-20261024.zip",
+  "rollback_instructions": [
+    "覆盖项目 dist/ 为回滚包中的 dist/ 文件。",
+    "运行 meoo --json deploy --skip-build --skip-push --project ucdte4eh02uv --force。",
+    "确认 releases list 中 v13 SUCCESS 且 isActive=true。"
+  ]
+}

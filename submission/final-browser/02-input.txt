@@ -1,0 +1,69 @@
+Browser tab: 1650485156, Title: "你好 · 自选股监控", URL: "https://ucdte4eh02uv.meoo.info/".
+0 AXWebArea 你好 · 自选股监控, URL: ucdte4eh02uv.meoo.info/
+	1 container root
+		2 container
+			3 text 你好
+			4 button 监控台
+			5 button 模型设置
+			6 button 退 出
+		7 container
+			8 image info-circle
+			9 text 站内持久化提醒，不发送短信或邮件。关闭页面后的运行依赖独立服务端调度。 仅沪深A股日收盘（不复权/CNY）。缺交易日覆盖时无法判断；独立调度状态以实际执行记录为准。
+		66 heading 创建监控, Value: 1
+			67 text 创建监控
+		68 button 返 回
+		69 container
+			70 image 悬浮的雪球风格监控助手；电子眼会随鼠标移动。
+			71 text 语义理解 ·  可用
+			72 heading 你好，我在这里。, Value: 2
+				73 text 你好，我在这里。
+			74 text 说说你想关注什么，我们一起把条件理清楚。
+			75 text 描述你的关注条件
+			76 text entry area (settable) Description: 自然语言需求, Value: 招商银行日收盘价低于40元时提醒我，滚动24小时冷却。, ID: natural-input
+			77 button 生成可编辑草稿
+			78 text 先生成草稿，再核对条件与依据；不会自动保存或启用。
+		79 container
+			80 text 2 · 核对和修改规则 任务名称
+			81 text field (settable) 任务名称
+			82 text 规则类型
+			83 container 规则类型
+				84 container
+					85 combo box (collapsed, settable) Description: 规则类型, ID: rc_select_4, Secondary Actions: Expand
+					86 text 日收盘价（不复权 / CNY）
+			87 text 沪深 A 股标的（服务端真实检索）
+			88 container 股票标的
+				89 container
+					90 combo box (collapsed, settable) Description: 股票标的, ID: rc_select_5, Secondary Actions: Expand
+					91 text 按名称或代码搜索
+			92 text 条件关系
+			93 container
+				94 combo box (collapsed, settable) 条件关系 全部满足 AND  , ID: rc_select_6, Secondary Actions: Expand
+				95 text 全部满足 AND
+			96 text 日收盘价
+			97 container
+				98 combo box (collapsed, settable) ID: rc_select_7, Secondary Actions: Expand
+				99 text 高于 >
+			100 text field (settable) 价格阈值1
+			101 text 元
+			102 button (disabled) 移 除
+			103 button ＋ 添加条件
+			104 text 日级更新，预期收盘后15分钟检查；缺数据/接口失败15分钟后重试。这是产品等待策略，不是供应商SLA。每次调度最多处理一个任务，日期优先，排队会增加延迟。 滚动冷却（秒；86400 = 滚动 24 小时）
+			105 container
+				106 button Increase Value
+					107 image up
+				108 button Decrease Value
+					109 image down
+				110 stepper (settable, integer) 滚动冷却（秒；86400 = 滚动 24 小时） Increase Value Decrease Value, Value: 86400
+			111 text 价格首次有效满足即可提醒；连续满足仅一次。有效不满足后再次满足开启新事件段，仍受冷却约束。
+			112 button 3 · 试运行
+			113 button 保存草稿/版本
+			114 button (disabled) 4 · 确认启用
+		59 container
+			60 text 所有时间均显示为北京时间。
+			61 text 运行状态以服务端实际记录为准。
+	62 container meoo-brand-watermark
+		63 image Meoo
+		64 text By  Meoo 秒悟
+		65 button ×
+
+The focused UI element is 76 text entry area (settable) Description: 自然语言需求, Value: 招商银行日收盘价低于40元时提醒我，滚动24小时冷却。, ID: natural-input

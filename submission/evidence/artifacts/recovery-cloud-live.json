@@ -1,0 +1,212 @@
+{
+  "started_at": "2026-10-24T13:37:57.799Z",
+  "fault_injection": "TEST manual claim then abandon; recovery must be independent cloud tick",
+  "real_clock": true,
+  "manual_tick_calls": 0,
+  "checks": [],
+  "task_id": "8cadd2939ec9443386e71c961bb59a37",
+  "scheduled_at": "2026-10-24T13:38:40.000Z",
+  "initial_tasks": 9,
+  "abandoned_claim": {
+    "run_id": "1fec32f339ff4103b66083cd705a5fe7",
+    "key": "TEST-recovery-abandon-73070f21-bb14-494c-8970-31aba9bfbea4",
+    "lease_until": 1792849168.297154,
+    "claimed_at": "2026-10-24T13:38:43.472Z"
+  },
+  "runs": [
+    {
+      "id": "1fec32f339ff4103b66083cd705a5fe7",
+      "status": "superseded",
+      "decision": "superseded",
+      "started_at": 1792849123.297154,
+      "finished_at": 1792849228.502407,
+      "detail": {
+        "reason_code": "expired_lease_recovered"
+      },
+      "request_key": "TEST-recovery-abandon-73070f21-bb14-494c-8970-31aba9bfbea4"
+    },
+    {
+      "id": "1b017196379f42238ee3d30c2403626b",
+      "status": "succeeded",
+      "decision": "notify",
+      "started_at": 1792849228.502407,
+      "finished_at": 1792849229.314079,
+      "detail": {
+        "gap": {
+          "to": 1792849229.314079,
+          "from": 1792849120,
+          "reason_code": "scheduled_check_delayed",
+          "historical_prices_replayed": false
+        },
+        "result": true,
+        "calendar": {
+          "actual_at": 1792849229.314079,
+          "late_seconds": 109.31407904624939,
+          "scheduled_at": 1792849120
+        },
+        "decision": "notify",
+        "evidence": [],
+        "evaluated_at": 1792849229.314079
+      },
+      "request_key": "cf-cron:ucdte4eh02uv:29880820"
+    }
+  ],
+  "abandoned_tick": {
+    "finished_at": 1792849228.502407,
+    "outcome": {
+      "state": "running",
+      "run_id": "1fec32f339ff4103b66083cd705a5fe7",
+      "task_id": "8cadd2939ec9443386e71c961bb59a37",
+      "decision": "superseded",
+      "reason_code": "expired_lease_recovered"
+    }
+  },
+  "stale_completion": {
+    "run_id": "1fec32f339ff4103b66083cd705a5fe7",
+    "decision": "superseded",
+    "duplicate": true
+  },
+  "notification": {
+    "id": "1f61beae70004664bea70a09cf6fd878",
+    "count": 1,
+    "read_at": 1792849244.31888
+  },
+  "task_after": {
+    "id": "8cadd2939ec9443386e71c961bb59a37",
+    "name": "TEST 漏检恢复验收（真实时钟/云调度）",
+    "spec": {
+      "name": "TEST 漏检恢复验收（真实时钟/云调度）",
+      "rule": {
+        "kind": "calendar_once",
+        "scheduled_at": "2026-10-24T13:38:40.000Z"
+      },
+      "schedule": {
+        "mode": "once",
+        "timezone": "Asia/Shanghai"
+      },
+      "instrument_id": null,
+      "notification_policy": {
+        "mode": "on_episode",
+        "cooldown_seconds": 86400
+      }
+    },
+    "owner": "demo",
+    "unread": 0,
+    "runtime": {
+      "state": {
+        "episode": 0,
+        "last_result": null,
+        "calendar_done": 1792849120,
+        "cooldown_until": 0,
+        "episode_notified": false
+      },
+      "health": "healthy",
+      "overdue": false,
+      "task_id": "8cadd2939ec9443386e71c961bb59a37",
+      "decision": "notify",
+      "next_run": null,
+      "pause_at": null,
+      "lease_until": null,
+      "last_checked": 1792849229.314079,
+      "last_success": 1792849229.314079
+    },
+    "version": 1,
+    "lifecycle": "enabled",
+    "created_at": 1792849079.625866,
+    "generation": 3,
+    "instrument": null,
+    "updated_at": 1792849248.856307,
+    "instrument_id": null,
+    "last_evaluation": {
+      "gap": {
+        "to": 1792849229.314079,
+        "from": 1792849120,
+        "reason_code": "scheduled_check_delayed",
+        "historical_prices_replayed": false
+      },
+      "retry": null,
+      "result": true,
+      "run_id": "1b017196379f42238ee3d30c2403626b",
+      "version": 1,
+      "calendar": {
+        "actual_at": 1792849229.314079,
+        "late_seconds": 109.31407904624939,
+        "scheduled_at": 1792849120
+      },
+      "decision": "notify",
+      "evidence": [],
+      "recovery": null,
+      "trade_date": null,
+      "reason_code": null,
+      "evaluated_at": 1792849229.314079,
+      "trigger_request_id": "cf-cron:ucdte4eh02uv:29880820",
+      "expected_trade_date": null
+    },
+    "scheduler_observation": {
+      "server_time": 1792849249.537498,
+      "last_request": 1792849228.502407,
+      "source_basis": "authenticated_tick_request_id_prefix",
+      "last_finished": 1792849229.314079,
+      "last_cloud_request": 1792849228.502407,
+      "last_cloud_finished": 1792849229.314079,
+      "warning_after_seconds": 180,
+      "expected_interval_seconds": 60,
+      "automatic_execution_verified": false
+    }
+  },
+  "audit": [
+    {
+      "at": 1792849248.856307,
+      "id": 41,
+      "action": "resume",
+      "detail": {
+        "gap_to": 1792849248.856307,
+        "gap_from": 1792849247.443266,
+        "from_version": 1,
+        "historical_prices_replayed": false
+      },
+      "task_id": "8cadd2939ec9443386e71c961bb59a37"
+    },
+    {
+      "at": 1792849247.443266,
+      "id": 40,
+      "action": "pause",
+      "detail": {
+        "gap_to": null,
+        "gap_from": null,
+        "from_version": 1,
+        "historical_prices_replayed": false
+      },
+      "task_id": "8cadd2939ec9443386e71c961bb59a37"
+    },
+    {
+      "at": 1792849228.502407,
+      "id": 39,
+      "action": "expired_lease_recovered",
+      "detail": {},
+      "task_id": "8cadd2939ec9443386e71c961bb59a37"
+    },
+    {
+      "at": 1792849080.771882,
+      "id": 38,
+      "action": "activate",
+      "detail": {
+        "gap_to": null,
+        "gap_from": null,
+        "from_version": 1,
+        "historical_prices_replayed": false
+      },
+      "task_id": "8cadd2939ec9443386e71c961bb59a37"
+    },
+    {
+      "at": 1792849079.625866,
+      "id": 37,
+      "action": "created",
+      "detail": {},
+      "task_id": "8cadd2939ec9443386e71c961bb59a37"
+    }
+  ],
+  "passed": true,
+  "cleanup": "soft_deleted_TEST_task_history_retained",
+  "finished_at": "2026-10-24T13:40:51.432Z"
+}

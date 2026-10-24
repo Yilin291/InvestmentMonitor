@@ -1,0 +1,24 @@
+.env
+.env.*
+!.env.example
+validation/.env.local
+validation/data/
+validation/evidence/raw/
+node_modules/
+__pycache__/
+*.pyc
+
+# Product-generated files (preserve V0 ignore rules above)
+dist/
+.product-data/*
+!.product-data/.gitignore
+
+# Python product runtime
+.venv/
+
+# Private local delivery and workspaces
+.DS_Store
+.downloads/
+.frontend-design/
+deliverables/
+*.aiff

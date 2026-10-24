@@ -1,0 +1,63 @@
+[
+  {
+    "file": "01-dashboard.png",
+    "caption": "真实沪深 A 股日收盘监控：规则可解释，离开页面后仍由云端检查。",
+    "seconds": 12,
+    "at": "2026-10-24T14:53:40.506Z",
+    "note": "Opening dashboard refreshed after recording the core workflow; editorial establishing shot."
+  },
+  {
+    "file": "02-input.png",
+    "caption": "用自然语言描述目标；模型只生成草稿，不代替用户启用监控。",
+    "seconds": 10,
+    "at": "2026-10-24T14:36:16.403Z"
+  },
+  {
+    "file": "03-model-draft.png",
+    "caption": "deepseek-flash 已返回招商银行日收盘价低于 40 元的草稿，等待用户采用。",
+    "seconds": 10,
+    "at": "2026-10-24T14:36:45.597Z"
+  },
+  {
+    "file": "04-preview.png",
+    "caption": "把阈值改为 39.5 元后真实试运行：2026-10-23 收盘 41.77 元，条件未满足。",
+    "seconds": 16,
+    "at": "2026-10-24T14:37:21.394Z"
+  },
+  {
+    "file": "05-confirm.png",
+    "caption": "启用前再次展示最终规则、冷却和通知范围，必须由用户明确确认。",
+    "seconds": 8,
+    "at": "2026-10-24T14:37:42.769Z"
+  },
+  {
+    "file": "06-auto-result.png",
+    "caption": "本轮新建任务已由独立云调度执行；真实收盘 41.77 元，未满足 39.5 元阈值，不发提醒。",
+    "seconds": 16,
+    "at": "2026-10-24T14:38:37.023Z"
+  },
+  {
+    "file": "07-paused.png",
+    "caption": "可以随时暂停；原有执行依据、规则版本和生命周期记录继续保留。",
+    "seconds": 8,
+    "at": "2026-10-24T14:40:16.056Z"
+  },
+  {
+    "file": "08-positive.png",
+    "caption": "查看已有自动触发记录：同一真实收盘价低于 42.77 元，已生成站内提醒。",
+    "seconds": 14,
+    "at": "2026-10-24T14:47:50.728Z"
+  },
+  {
+    "file": "09-notification.png",
+    "caption": "提醒关联具体规则版本和价格证据，来源、交易日期与取得时间均可核对。",
+    "seconds": 12,
+    "at": "2026-10-24T14:47:51.113Z"
+  },
+  {
+    "file": "10-unknown.png",
+    "caption": "口径不足时明确“无法判断”：旧盘中报价缺逐股时间，不伪装成有效实时数据。",
+    "seconds": 12,
+    "at": "2026-10-24T14:49:36.277Z"
+  }
+]

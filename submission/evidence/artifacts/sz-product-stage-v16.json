@@ -1,0 +1,975 @@
+{
+  "checked_at": "2026-10-24T12:18:52.328Z",
+  "health": {
+    "status": "ok",
+    "storage": "postgresql_rpc",
+    "server_time": 1792844332.811159,
+    "production_validated": false,
+    "release": "deno-close-v16",
+    "ingress_path": "/api/health"
+  },
+  "mode": "real previews; explicitly activate two future automatic checks; no manual tick",
+  "checks": [
+    {
+      "instrument": {
+        "id": "CN.SZ.000001",
+        "code": "000001",
+        "name": "平安银行",
+        "market": "SZ",
+        "currency": "CNY",
+        "provenance": "{\"provider\":\"fuyao\",\"source\":\"https://fuyao.aicubes.cn/api/meta/tickers/search?q=000001.SZ&asset_type=a-share&limit=20\",\"request_id\":\"8d9584c6b2f44630817dcade331cc574\",\"verified_at\":\"2026-10-24T12:18:53.472Z\",\"asset_type\":\"a-share\"}",
+        "asset_class": "stock"
+      },
+      "spec": {
+        "name": "深市自动验收 · 平安银行（满足）",
+        "instrument_id": "CN.SZ.000001",
+        "rule": {
+          "kind": "close_price_group",
+          "combinator": "all",
+          "conditions": [
+            {
+              "id": "p1",
+              "field": "close_price",
+              "operator": "lt",
+              "value": "12.2",
+              "currency": "CNY"
+            }
+          ]
+        },
+        "schedule": {
+          "mode": "daily_close",
+          "timezone": "Asia/Shanghai",
+          "interval_seconds": 86400
+        },
+        "notification_policy": {
+          "mode": "on_episode",
+          "cooldown_seconds": 86400
+        }
+      },
+      "preview": {
+        "result": true,
+        "decision": "matched",
+        "evaluated_at": 1792844334.990017,
+        "evidence": [
+          {
+            "condition": {
+              "id": "p1",
+              "field": "close_price",
+              "operator": "lt",
+              "value": "12.2",
+              "currency": "CNY"
+            },
+            "observation": {
+              "instrument_id": "CN.SZ.000001",
+              "field": "close_price",
+              "value": "11.2",
+              "unit": "CNY",
+              "source_time": null,
+              "trade_date": "2026-10-23",
+              "adjust": "none",
+              "mapping_version": "fuyao-daily-close-v1",
+              "fetched_at": "2026-10-24T12:18:54.990Z",
+              "provider": "fuyao",
+              "source_ref": "https://fuyao.aicubes.cn/api/a-share/prices/historical?thscode=000001.SZ&interval=1d&adjust=none&start=1789747200000&end=1792771200000",
+              "quality": "valid",
+              "reason_code": null,
+              "date_ms": "1792684800000",
+              "request_id": "4bb21c9d7bd44bd083ed7b0075a6d0c4",
+              "identity_basis": "response thscode/interval/adjust strictly matched",
+              "provider_echo": {
+                "thscode": "000001.SZ",
+                "interval": "1d",
+                "adjust": "none"
+              }
+            },
+            "result": true,
+            "quality": "valid",
+            "reason_code": null
+          }
+        ],
+        "market": {
+          "trade_date": "2026-10-23",
+          "policy_version": "cn-sh-sz-2026-positive-calendar-v3",
+          "source_ref": "https://fuyao.aicubes.cn/api/a-share/calendar/trading-days",
+          "exchange": "SZ",
+          "exchange_rule": "https://docs.static.szse.cn/www/lawrules/rule/trade/current/W020260424690713155663.pdf",
+          "calendar_version": "szse-2026-notice481-v1",
+          "calendar_sources": [
+            "https://www.szse.cn/disclosure/notice/general/t20251222_618087.html",
+            "https://dataclouds.cninfo.com.cn/sjother2/regulatory/2025/20251222/50b258f0d89b4076b459eb746a7e100d.pdf"
+          ],
+          "coverage": "SZ 2026 scheduled closures plus positive provider expected date; emergency halt remains unknown",
+          "checked_at": 1792844334.990017,
+          "status": "completed_close",
+          "expected_trade_date": "2026-10-23"
+        },
+        "warnings": [],
+        "valid_until": 1792911600,
+        "next_check": 1792912500,
+        "mapping_version": "fuyao-daily-close-v1"
+      },
+      "repeat": {
+        "result": true,
+        "decision": "matched",
+        "evaluated_at": 1792844337.429853,
+        "evidence": [
+          {
+            "condition": {
+              "id": "p1",
+              "field": "close_price",
+              "operator": "lt",
+              "value": "12.2",
+              "currency": "CNY"
+            },
+            "observation": {
+              "instrument_id": "CN.SZ.000001",
+              "field": "close_price",
+              "value": "11.2",
+              "unit": "CNY",
+              "source_time": null,
+              "trade_date": "2026-10-23",
+              "adjust": "none",
+              "mapping_version": "fuyao-daily-close-v1",
+              "fetched_at": "2026-10-24T12:18:54.990Z",
+              "provider": "fuyao",
+              "source_ref": "https://fuyao.aicubes.cn/api/a-share/prices/historical?thscode=000001.SZ&interval=1d&adjust=none&start=1789747200000&end=1792771200000",
+              "quality": "valid",
+              "reason_code": null,
+              "date_ms": "1792684800000",
+              "request_id": "4bb21c9d7bd44bd083ed7b0075a6d0c4",
+              "identity_basis": "response thscode/interval/adjust strictly matched",
+              "provider_echo": {
+                "thscode": "000001.SZ",
+                "interval": "1d",
+                "adjust": "none"
+              }
+            },
+            "result": true,
+            "quality": "valid",
+            "reason_code": null
+          }
+        ],
+        "market": {
+          "trade_date": "2026-10-23",
+          "policy_version": "cn-sh-sz-2026-positive-calendar-v3",
+          "source_ref": "https://fuyao.aicubes.cn/api/a-share/calendar/trading-days",
+          "exchange": "SZ",
+          "exchange_rule": "https://docs.static.szse.cn/www/lawrules/rule/trade/current/W020260424690713155663.pdf",
+          "calendar_version": "szse-2026-notice481-v1",
+          "calendar_sources": [
+            "https://www.szse.cn/disclosure/notice/general/t20251222_618087.html",
+            "https://dataclouds.cninfo.com.cn/sjother2/regulatory/2025/20251222/50b258f0d89b4076b459eb746a7e100d.pdf"
+          ],
+          "coverage": "SZ 2026 scheduled closures plus positive provider expected date; emergency halt remains unknown",
+          "checked_at": 1792844337.429853,
+          "status": "completed_close",
+          "expected_trade_date": "2026-10-23"
+        },
+        "warnings": [],
+        "valid_until": 1792911600,
+        "next_check": 1792912500,
+        "mapping_version": "fuyao-daily-close-v1"
+      }
+    },
+    {
+      "instrument": {
+        "id": "CN.SZ.002594",
+        "code": "002594",
+        "name": "比亚迪",
+        "market": "SZ",
+        "currency": "CNY",
+        "provenance": "{\"provider\":\"fuyao\",\"source\":\"https://fuyao.aicubes.cn/api/meta/tickers/search?q=002594.SZ&asset_type=a-share&limit=20\",\"request_id\":\"b72295bc301142f488be39549d3db0e2\",\"verified_at\":\"2026-10-24T12:19:00.549Z\",\"asset_type\":\"a-share\"}",
+        "asset_class": "stock"
+      },
+      "spec": {
+        "name": "深市自动验收 · 比亚迪（不满足）",
+        "instrument_id": "CN.SZ.002594",
+        "rule": {
+          "kind": "close_price_group",
+          "combinator": "all",
+          "conditions": [
+            {
+              "id": "p1",
+              "field": "close_price",
+              "operator": "lt",
+              "value": "80.42",
+              "currency": "CNY"
+            }
+          ]
+        },
+        "schedule": {
+          "mode": "daily_close",
+          "timezone": "Asia/Shanghai",
+          "interval_seconds": 86400
+        },
+        "notification_policy": {
+          "mode": "on_episode",
+          "cooldown_seconds": 86400
+        }
+      },
+      "preview": {
+        "result": false,
+        "decision": "no_match",
+        "evaluated_at": 1792844342.198276,
+        "evidence": [
+          {
+            "condition": {
+              "id": "p1",
+              "field": "close_price",
+              "operator": "lt",
+              "value": "80.42",
+              "currency": "CNY"
+            },
+            "observation": {
+              "instrument_id": "CN.SZ.002594",
+              "field": "close_price",
+              "value": "81.42",
+              "unit": "CNY",
+              "source_time": null,
+              "trade_date": "2026-10-23",
+              "adjust": "none",
+              "mapping_version": "fuyao-daily-close-v1",
+              "fetched_at": "2026-10-24T12:19:02.198Z",
+              "provider": "fuyao",
+              "source_ref": "https://fuyao.aicubes.cn/api/a-share/prices/historical?thscode=002594.SZ&interval=1d&adjust=none&start=1789747200000&end=1792771200000",
+              "quality": "valid",
+              "reason_code": null,
+              "date_ms": "1792684800000",
+              "request_id": "ef6da57b47ee4934873125bbf7306418",
+              "identity_basis": "response thscode/interval/adjust strictly matched",
+              "provider_echo": {
+                "thscode": "002594.SZ",
+                "interval": "1d",
+                "adjust": "none"
+              }
+            },
+            "result": false,
+            "quality": "valid",
+            "reason_code": null
+          }
+        ],
+        "market": {
+          "trade_date": "2026-10-23",
+          "policy_version": "cn-sh-sz-2026-positive-calendar-v3",
+          "source_ref": "https://fuyao.aicubes.cn/api/a-share/calendar/trading-days",
+          "exchange": "SZ",
+          "exchange_rule": "https://docs.static.szse.cn/www/lawrules/rule/trade/current/W020260424690713155663.pdf",
+          "calendar_version": "szse-2026-notice481-v1",
+          "calendar_sources": [
+            "https://www.szse.cn/disclosure/notice/general/t20251222_618087.html",
+            "https://dataclouds.cninfo.com.cn/sjother2/regulatory/2025/20251222/50b258f0d89b4076b459eb746a7e100d.pdf"
+          ],
+          "coverage": "SZ 2026 scheduled closures plus positive provider expected date; emergency halt remains unknown",
+          "checked_at": 1792844342.198276,
+          "status": "completed_close",
+          "expected_trade_date": "2026-10-23"
+        },
+        "warnings": [],
+        "valid_until": 1792911600,
+        "next_check": 1792912500,
+        "mapping_version": "fuyao-daily-close-v1"
+      },
+      "repeat": {
+        "result": false,
+        "decision": "no_match",
+        "evaluated_at": 1792844344.489984,
+        "evidence": [
+          {
+            "condition": {
+              "id": "p1",
+              "field": "close_price",
+              "operator": "lt",
+              "value": "80.42",
+              "currency": "CNY"
+            },
+            "observation": {
+              "instrument_id": "CN.SZ.002594",
+              "field": "close_price",
+              "value": "81.42",
+              "unit": "CNY",
+              "source_time": null,
+              "trade_date": "2026-10-23",
+              "adjust": "none",
+              "mapping_version": "fuyao-daily-close-v1",
+              "fetched_at": "2026-10-24T12:19:02.198Z",
+              "provider": "fuyao",
+              "source_ref": "https://fuyao.aicubes.cn/api/a-share/prices/historical?thscode=002594.SZ&interval=1d&adjust=none&start=1789747200000&end=1792771200000",
+              "quality": "valid",
+              "reason_code": null,
+              "date_ms": "1792684800000",
+              "request_id": "ef6da57b47ee4934873125bbf7306418",
+              "identity_basis": "response thscode/interval/adjust strictly matched",
+              "provider_echo": {
+                "thscode": "002594.SZ",
+                "interval": "1d",
+                "adjust": "none"
+              }
+            },
+            "result": false,
+            "quality": "valid",
+            "reason_code": null
+          }
+        ],
+        "market": {
+          "trade_date": "2026-10-23",
+          "policy_version": "cn-sh-sz-2026-positive-calendar-v3",
+          "source_ref": "https://fuyao.aicubes.cn/api/a-share/calendar/trading-days",
+          "exchange": "SZ",
+          "exchange_rule": "https://docs.static.szse.cn/www/lawrules/rule/trade/current/W020260424690713155663.pdf",
+          "calendar_version": "szse-2026-notice481-v1",
+          "calendar_sources": [
+            "https://www.szse.cn/disclosure/notice/general/t20251222_618087.html",
+            "https://dataclouds.cninfo.com.cn/sjother2/regulatory/2025/20251222/50b258f0d89b4076b459eb746a7e100d.pdf"
+          ],
+          "coverage": "SZ 2026 scheduled closures plus positive provider expected date; emergency halt remains unknown",
+          "checked_at": 1792844344.489984,
+          "status": "completed_close",
+          "expected_trade_date": "2026-10-23"
+        },
+        "warnings": [],
+        "valid_until": 1792911600,
+        "next_check": 1792912500,
+        "mapping_version": "fuyao-daily-close-v1"
+      }
+    },
+    {
+      "instrument": {
+        "id": "CN.SZ.300750",
+        "code": "300750",
+        "name": "宁德时代",
+        "market": "SZ",
+        "currency": "CNY",
+        "provenance": "{\"provider\":\"fuyao\",\"source\":\"https://fuyao.aicubes.cn/api/meta/tickers/search?q=300750.SZ&asset_type=a-share&limit=20\",\"request_id\":\"15f8d08d729048799698a12cf3cf566f\",\"verified_at\":\"2026-10-24T12:19:04.859Z\",\"asset_type\":\"a-share\"}",
+        "asset_class": "stock"
+      },
+      "spec": {
+        "name": "深市自动验收 · 宁德时代（不满足）",
+        "instrument_id": "CN.SZ.300750",
+        "rule": {
+          "kind": "close_price_group",
+          "combinator": "all",
+          "conditions": [
+            {
+              "id": "p1",
+              "field": "close_price",
+              "operator": "lt",
+              "value": "236.6",
+              "currency": "CNY"
+            }
+          ]
+        },
+        "schedule": {
+          "mode": "daily_close",
+          "timezone": "Asia/Shanghai",
+          "interval_seconds": 86400
+        },
+        "notification_policy": {
+          "mode": "on_episode",
+          "cooldown_seconds": 86400
+        }
+      },
+      "preview": {
+        "result": false,
+        "decision": "no_match",
+        "evaluated_at": 1792844351.215999,
+        "evidence": [
+          {
+            "condition": {
+              "id": "p1",
+              "field": "close_price",
+              "operator": "lt",
+              "value": "236.6",
+              "currency": "CNY"
+            },
+            "observation": {
+              "instrument_id": "CN.SZ.300750",
+              "field": "close_price",
+              "value": "237.6",
+              "unit": "CNY",
+              "source_time": null,
+              "trade_date": "2026-10-23",
+              "adjust": "none",
+              "mapping_version": "fuyao-daily-close-v1",
+              "fetched_at": "2026-10-24T12:19:11.215Z",
+              "provider": "fuyao",
+              "source_ref": "https://fuyao.aicubes.cn/api/a-share/prices/historical?thscode=300750.SZ&interval=1d&adjust=none&start=1789747200000&end=1792771200000",
+              "quality": "valid",
+              "reason_code": null,
+              "date_ms": "1792684800000",
+              "request_id": "58d592e981c54b97822d134a554c6c7a",
+              "identity_basis": "response thscode/interval/adjust strictly matched",
+              "provider_echo": {
+                "thscode": "300750.SZ",
+                "interval": "1d",
+                "adjust": "none"
+              }
+            },
+            "result": false,
+            "quality": "valid",
+            "reason_code": null
+          }
+        ],
+        "market": {
+          "trade_date": "2026-10-23",
+          "policy_version": "cn-sh-sz-2026-positive-calendar-v3",
+          "source_ref": "https://fuyao.aicubes.cn/api/a-share/calendar/trading-days",
+          "exchange": "SZ",
+          "exchange_rule": "https://docs.static.szse.cn/www/lawrules/rule/trade/current/W020260424690713155663.pdf",
+          "calendar_version": "szse-2026-notice481-v1",
+          "calendar_sources": [
+            "https://www.szse.cn/disclosure/notice/general/t20251222_618087.html",
+            "https://dataclouds.cninfo.com.cn/sjother2/regulatory/2025/20251222/50b258f0d89b4076b459eb746a7e100d.pdf"
+          ],
+          "coverage": "SZ 2026 scheduled closures plus positive provider expected date; emergency halt remains unknown",
+          "checked_at": 1792844351.215999,
+          "status": "completed_close",
+          "expected_trade_date": "2026-10-23"
+        },
+        "warnings": [],
+        "valid_until": 1792911600,
+        "next_check": 1792912500,
+        "mapping_version": "fuyao-daily-close-v1"
+      },
+      "repeat": {
+        "result": false,
+        "decision": "no_match",
+        "evaluated_at": 1792844353.189587,
+        "evidence": [
+          {
+            "condition": {
+              "id": "p1",
+              "field": "close_price",
+              "operator": "lt",
+              "value": "236.6",
+              "currency": "CNY"
+            },
+            "observation": {
+              "instrument_id": "CN.SZ.300750",
+              "field": "close_price",
+              "value": "237.6",
+              "unit": "CNY",
+              "source_time": null,
+              "trade_date": "2026-10-23",
+              "adjust": "none",
+              "mapping_version": "fuyao-daily-close-v1",
+              "fetched_at": "2026-10-24T12:19:11.215Z",
+              "provider": "fuyao",
+              "source_ref": "https://fuyao.aicubes.cn/api/a-share/prices/historical?thscode=300750.SZ&interval=1d&adjust=none&start=1789747200000&end=1792771200000",
+              "quality": "valid",
+              "reason_code": null,
+              "date_ms": "1792684800000",
+              "request_id": "58d592e981c54b97822d134a554c6c7a",
+              "identity_basis": "response thscode/interval/adjust strictly matched",
+              "provider_echo": {
+                "thscode": "300750.SZ",
+                "interval": "1d",
+                "adjust": "none"
+              }
+            },
+            "result": false,
+            "quality": "valid",
+            "reason_code": null
+          }
+        ],
+        "market": {
+          "trade_date": "2026-10-23",
+          "policy_version": "cn-sh-sz-2026-positive-calendar-v3",
+          "source_ref": "https://fuyao.aicubes.cn/api/a-share/calendar/trading-days",
+          "exchange": "SZ",
+          "exchange_rule": "https://docs.static.szse.cn/www/lawrules/rule/trade/current/W020260424690713155663.pdf",
+          "calendar_version": "szse-2026-notice481-v1",
+          "calendar_sources": [
+            "https://www.szse.cn/disclosure/notice/general/t20251222_618087.html",
+            "https://dataclouds.cninfo.com.cn/sjother2/regulatory/2025/20251222/50b258f0d89b4076b459eb746a7e100d.pdf"
+          ],
+          "coverage": "SZ 2026 scheduled closures plus positive provider expected date; emergency halt remains unknown",
+          "checked_at": 1792844353.189587,
+          "status": "completed_close",
+          "expected_trade_date": "2026-10-23"
+        },
+        "warnings": [],
+        "valid_until": 1792911600,
+        "next_check": 1792912500,
+        "mapping_version": "fuyao-daily-close-v1"
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "id": "833fdcb0dbdf4f219f35a205d20cd84d",
+      "spec": {
+        "name": "深市自动验收 · 平安银行（满足）",
+        "instrument_id": "CN.SZ.000001",
+        "rule": {
+          "kind": "close_price_group",
+          "combinator": "all",
+          "conditions": [
+            {
+              "id": "p1",
+              "field": "close_price",
+              "operator": "lt",
+              "value": "12.2",
+              "currency": "CNY"
+            }
+          ]
+        },
+        "schedule": {
+          "mode": "daily_close",
+          "timezone": "Asia/Shanghai",
+          "interval_seconds": 86400
+        },
+        "notification_policy": {
+          "mode": "on_episode",
+          "cooldown_seconds": 86400
+        }
+      },
+      "created": {
+        "id": "833fdcb0dbdf4f219f35a205d20cd84d",
+        "name": "深市自动验收 · 平安银行（满足）",
+        "spec": {
+          "name": "深市自动验收 · 平安银行（满足）",
+          "rule": {
+            "kind": "close_price_group",
+            "combinator": "all",
+            "conditions": [
+              {
+                "id": "p1",
+                "field": "close_price",
+                "value": "12.2",
+                "currency": "CNY",
+                "operator": "lt"
+              }
+            ]
+          },
+          "schedule": {
+            "mode": "daily_close",
+            "timezone": "Asia/Shanghai",
+            "interval_seconds": 86400
+          },
+          "instrument_id": "CN.SZ.000001",
+          "notification_policy": {
+            "mode": "on_episode",
+            "cooldown_seconds": 86400
+          }
+        },
+        "owner": "demo",
+        "unread": 0,
+        "runtime": {
+          "state": {
+            "episode": 0,
+            "last_result": null,
+            "cooldown_until": 0,
+            "episode_notified": false
+          },
+          "health": "pending",
+          "overdue": false,
+          "task_id": "833fdcb0dbdf4f219f35a205d20cd84d",
+          "decision": null,
+          "next_run": null,
+          "pause_at": null,
+          "lease_until": null,
+          "last_checked": null,
+          "last_success": null
+        },
+        "version": 1,
+        "lifecycle": "draft",
+        "created_at": 1792844339.527466,
+        "generation": 0,
+        "instrument": {
+          "id": "CN.SZ.000001",
+          "code": "000001",
+          "name": "平安银行",
+          "market": "SZ",
+          "currency": "CNY",
+          "provenance": "{\"provider\":\"fuyao\",\"source\":\"https://fuyao.aicubes.cn/api/meta/tickers/search?q=000001.SZ&asset_type=a-share&limit=20\",\"request_id\":\"8d9584c6b2f44630817dcade331cc574\",\"verified_at\":\"2026-10-24T12:18:53.472Z\",\"asset_type\":\"a-share\"}",
+          "asset_class": "stock"
+        },
+        "updated_at": 1792844339.527466,
+        "instrument_id": "CN.SZ.000001",
+        "last_evaluation": null,
+        "scheduler_observation": {
+          "server_time": 1792844339.527379,
+          "last_request": 1792844306.020382,
+          "source_basis": "authenticated_tick_request_id_prefix",
+          "last_finished": 1792844306.020382,
+          "last_cloud_request": 1792844306.020382,
+          "last_cloud_finished": 1792844306.020382,
+          "warning_after_seconds": 180,
+          "expected_interval_seconds": 60,
+          "automatic_execution_verified": false
+        }
+      },
+      "activated": {
+        "id": "833fdcb0dbdf4f219f35a205d20cd84d",
+        "name": "深市自动验收 · 平安银行（满足）",
+        "spec": {
+          "name": "深市自动验收 · 平安银行（满足）",
+          "rule": {
+            "kind": "close_price_group",
+            "combinator": "all",
+            "conditions": [
+              {
+                "id": "p1",
+                "field": "close_price",
+                "value": "12.2",
+                "currency": "CNY",
+                "operator": "lt"
+              }
+            ]
+          },
+          "schedule": {
+            "mode": "daily_close",
+            "timezone": "Asia/Shanghai",
+            "interval_seconds": 86400
+          },
+          "instrument_id": "CN.SZ.000001",
+          "notification_policy": {
+            "mode": "on_episode",
+            "cooldown_seconds": 86400
+          }
+        },
+        "owner": "demo",
+        "unread": 0,
+        "runtime": {
+          "state": {
+            "episode": 0,
+            "last_result": null,
+            "cooldown_until": 0,
+            "episode_notified": false
+          },
+          "health": "pending",
+          "overdue": false,
+          "task_id": "833fdcb0dbdf4f219f35a205d20cd84d",
+          "decision": null,
+          "next_run": 1792844340.06067,
+          "pause_at": null,
+          "lease_until": null,
+          "last_checked": null,
+          "last_success": null
+        },
+        "version": 1,
+        "lifecycle": "enabled",
+        "created_at": 1792844339.527466,
+        "generation": 1,
+        "instrument": {
+          "id": "CN.SZ.000001",
+          "code": "000001",
+          "name": "平安银行",
+          "market": "SZ",
+          "currency": "CNY",
+          "provenance": "{\"provider\":\"fuyao\",\"source\":\"https://fuyao.aicubes.cn/api/meta/tickers/search?q=000001.SZ&asset_type=a-share&limit=20\",\"request_id\":\"8d9584c6b2f44630817dcade331cc574\",\"verified_at\":\"2026-10-24T12:18:53.472Z\",\"asset_type\":\"a-share\"}",
+          "asset_class": "stock"
+        },
+        "updated_at": 1792844340.06067,
+        "instrument_id": "CN.SZ.000001",
+        "last_evaluation": null,
+        "scheduler_observation": {
+          "server_time": 1792844340.060604,
+          "last_request": 1792844306.020382,
+          "source_basis": "authenticated_tick_request_id_prefix",
+          "last_finished": 1792844306.020382,
+          "last_cloud_request": 1792844306.020382,
+          "last_cloud_finished": 1792844306.020382,
+          "warning_after_seconds": 180,
+          "expected_interval_seconds": 60,
+          "automatic_execution_verified": false
+        }
+      }
+    },
+    {
+      "id": "52327cf88cdc4e6188f23cadd7dbecd4",
+      "spec": {
+        "name": "深市自动验收 · 宁德时代（不满足）",
+        "instrument_id": "CN.SZ.300750",
+        "rule": {
+          "kind": "close_price_group",
+          "combinator": "all",
+          "conditions": [
+            {
+              "id": "p1",
+              "field": "close_price",
+              "operator": "lt",
+              "value": "236.6",
+              "currency": "CNY"
+            }
+          ]
+        },
+        "schedule": {
+          "mode": "daily_close",
+          "timezone": "Asia/Shanghai",
+          "interval_seconds": 86400
+        },
+        "notification_policy": {
+          "mode": "on_episode",
+          "cooldown_seconds": 86400
+        }
+      },
+      "created": {
+        "id": "52327cf88cdc4e6188f23cadd7dbecd4",
+        "name": "深市自动验收 · 宁德时代（不满足）",
+        "spec": {
+          "name": "深市自动验收 · 宁德时代（不满足）",
+          "rule": {
+            "kind": "close_price_group",
+            "combinator": "all",
+            "conditions": [
+              {
+                "id": "p1",
+                "field": "close_price",
+                "value": "236.6",
+                "currency": "CNY",
+                "operator": "lt"
+              }
+            ]
+          },
+          "schedule": {
+            "mode": "daily_close",
+            "timezone": "Asia/Shanghai",
+            "interval_seconds": 86400
+          },
+          "instrument_id": "CN.SZ.300750",
+          "notification_policy": {
+            "mode": "on_episode",
+            "cooldown_seconds": 86400
+          }
+        },
+        "owner": "demo",
+        "unread": 0,
+        "runtime": {
+          "state": {
+            "episode": 0,
+            "last_result": null,
+            "cooldown_until": 0,
+            "episode_notified": false
+          },
+          "health": "pending",
+          "overdue": false,
+          "task_id": "52327cf88cdc4e6188f23cadd7dbecd4",
+          "decision": null,
+          "next_run": null,
+          "pause_at": null,
+          "lease_until": null,
+          "last_checked": null,
+          "last_success": null
+        },
+        "version": 1,
+        "lifecycle": "draft",
+        "created_at": 1792844354.98405,
+        "generation": 0,
+        "instrument": {
+          "id": "CN.SZ.300750",
+          "code": "300750",
+          "name": "宁德时代",
+          "market": "SZ",
+          "currency": "CNY",
+          "provenance": "{\"provider\":\"fuyao\",\"source\":\"https://fuyao.aicubes.cn/api/meta/tickers/search?q=300750.SZ&asset_type=a-share&limit=20\",\"request_id\":\"b6d93f7353cf41a394585e5d8bd68956\",\"verified_at\":\"2026-10-24T12:19:07.732Z\",\"asset_type\":\"a-share\"}",
+          "asset_class": "stock"
+        },
+        "updated_at": 1792844354.98405,
+        "instrument_id": "CN.SZ.300750",
+        "last_evaluation": null,
+        "scheduler_observation": {
+          "server_time": 1792844354.983989,
+          "last_request": 1792844306.020382,
+          "source_basis": "authenticated_tick_request_id_prefix",
+          "last_finished": 1792844306.020382,
+          "last_cloud_request": 1792844306.020382,
+          "last_cloud_finished": 1792844306.020382,
+          "warning_after_seconds": 180,
+          "expected_interval_seconds": 60,
+          "automatic_execution_verified": false
+        }
+      },
+      "activated": {
+        "id": "52327cf88cdc4e6188f23cadd7dbecd4",
+        "name": "深市自动验收 · 宁德时代（不满足）",
+        "spec": {
+          "name": "深市自动验收 · 宁德时代（不满足）",
+          "rule": {
+            "kind": "close_price_group",
+            "combinator": "all",
+            "conditions": [
+              {
+                "id": "p1",
+                "field": "close_price",
+                "value": "236.6",
+                "currency": "CNY",
+                "operator": "lt"
+              }
+            ]
+          },
+          "schedule": {
+            "mode": "daily_close",
+            "timezone": "Asia/Shanghai",
+            "interval_seconds": 86400
+          },
+          "instrument_id": "CN.SZ.300750",
+          "notification_policy": {
+            "mode": "on_episode",
+            "cooldown_seconds": 86400
+          }
+        },
+        "owner": "demo",
+        "unread": 0,
+        "runtime": {
+          "state": {
+            "episode": 0,
+            "last_result": null,
+            "cooldown_until": 0,
+            "episode_notified": false
+          },
+          "health": "pending",
+          "overdue": false,
+          "task_id": "52327cf88cdc4e6188f23cadd7dbecd4",
+          "decision": null,
+          "next_run": 1792844355.761376,
+          "pause_at": null,
+          "lease_until": null,
+          "last_checked": null,
+          "last_success": null
+        },
+        "version": 1,
+        "lifecycle": "enabled",
+        "created_at": 1792844354.98405,
+        "generation": 1,
+        "instrument": {
+          "id": "CN.SZ.300750",
+          "code": "300750",
+          "name": "宁德时代",
+          "market": "SZ",
+          "currency": "CNY",
+          "provenance": "{\"provider\":\"fuyao\",\"source\":\"https://fuyao.aicubes.cn/api/meta/tickers/search?q=300750.SZ&asset_type=a-share&limit=20\",\"request_id\":\"b6d93f7353cf41a394585e5d8bd68956\",\"verified_at\":\"2026-10-24T12:19:07.732Z\",\"asset_type\":\"a-share\"}",
+          "asset_class": "stock"
+        },
+        "updated_at": 1792844355.761376,
+        "instrument_id": "CN.SZ.300750",
+        "last_evaluation": null,
+        "scheduler_observation": {
+          "server_time": 1792844355.761304,
+          "last_request": 1792844306.020382,
+          "source_basis": "authenticated_tick_request_id_prefix",
+          "last_finished": 1792844306.020382,
+          "last_cloud_request": 1792844306.020382,
+          "last_cloud_finished": 1792844306.020382,
+          "warning_after_seconds": 180,
+          "expected_interval_seconds": 60,
+          "automatic_execution_verified": false
+        }
+      }
+    }
+  ],
+  "model": {
+    "drafts": [
+      {
+        "name": "宁德时代最新已完成交易日收盘价低于236.6元提醒",
+        "instrument_id": "CN.SZ.300750",
+        "rule": {
+          "kind": "close_price_group",
+          "combinator": "all",
+          "conditions": [
+            {
+              "id": "p1",
+              "field": "close_price",
+              "operator": "lt",
+              "value": "236.6",
+              "currency": "CNY"
+            }
+          ]
+        },
+        "schedule": {
+          "mode": "daily_close",
+          "timezone": "Asia/Shanghai",
+          "interval_seconds": 86400
+        },
+        "notification_policy": {
+          "mode": "on_episode",
+          "cooldown_seconds": 86400
+        }
+      }
+    ],
+    "questions": [],
+    "unsupported": [],
+    "instrument_lookup": {
+      "status": "verified_imported",
+      "query": "300750.SZ",
+      "instruments": [
+        {
+          "id": "CN.SZ.300750",
+          "code": "300750",
+          "name": "宁德时代",
+          "market": "SZ",
+          "currency": "CNY",
+          "provenance": "{\"provider\":\"fuyao\",\"source\":\"https://fuyao.aicubes.cn/api/meta/tickers/search?q=300750.SZ&asset_type=a-share&limit=20\",\"request_id\":\"b6d93f7353cf41a394585e5d8bd68956\",\"verified_at\":\"2026-10-24T12:19:07.732Z\",\"asset_type\":\"a-share\"}",
+          "asset_class": "stock"
+        }
+      ]
+    },
+    "suggestions": [],
+    "status": "ready",
+    "model": "deepseek-flash",
+    "prompt_version": "watchlist-close-v1"
+  },
+  "sh_regression": {
+    "result": false,
+    "decision": "no_match",
+    "evaluated_at": 1792844356.434057,
+    "evidence": [
+      {
+        "condition": {
+          "id": "p1",
+          "field": "close_price",
+          "value": "932",
+          "currency": "CNY",
+          "operator": "lt"
+        },
+        "observation": {
+          "instrument_id": "CN.SH.688256",
+          "field": "close_price",
+          "value": "932.2",
+          "unit": "CNY",
+          "source_time": null,
+          "trade_date": "2026-10-23",
+          "adjust": "none",
+          "mapping_version": "fuyao-daily-close-v1",
+          "fetched_at": "2026-10-24T11:55:17.104Z",
+          "provider": "fuyao",
+          "source_ref": "https://fuyao.aicubes.cn/api/a-share/prices/historical?thscode=688256.SH&interval=1d&adjust=none&start=1789747200000&end=1792771200000",
+          "quality": "valid",
+          "reason_code": null,
+          "date_ms": "1792684800000",
+          "request_id": "289573022f204e7384801cd815a798bd",
+          "identity_basis": "response thscode/interval/adjust strictly matched",
+          "provider_echo": {
+            "thscode": "688256.SH",
+            "interval": "1d",
+            "adjust": "none"
+          }
+        },
+        "result": false,
+        "quality": "valid",
+        "reason_code": null
+      }
+    ],
+    "market": {
+      "trade_date": "2026-10-23",
+      "policy_version": "cn-sh-sz-2026-positive-calendar-v3",
+      "source_ref": "https://fuyao.aicubes.cn/api/a-share/calendar/trading-days",
+      "exchange": "SH",
+      "exchange_rule": "https://www.sse.com.cn/lawandrules/sselawsrules2025/fund/trading/c/c_20260424_10817739.shtml",
+      "calendar_version": "sse-2026-notice45-notice22-v1",
+      "calendar_sources": [
+        "https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml",
+        "https://www.sse.com.cn/disclosure/announcement/general/c/c_20260915_10832273.shtml"
+      ],
+      "coverage": "SH 2026 scheduled closures plus positive provider expected date; emergency halt remains unknown",
+      "checked_at": 1792844356.434057,
+      "status": "completed_close",
+      "expected_trade_date": "2026-10-23"
+    },
+    "warnings": [],
+    "valid_until": 1792911600,
+    "next_check": 1792912500,
+    "mapping_version": "fuyao-daily-close-v1"
+  },
+  "passed": true
+}

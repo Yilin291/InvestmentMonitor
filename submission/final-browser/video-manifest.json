@@ -1,0 +1,127 @@
+{
+  "file": "观澜_最终产品演示_v14.mp4",
+  "created_at": "2026-10-24T14:54:27.296898+00:00",
+  "sha256": "7da72c700abed96fdbd9c799abfcc624e8e9dcee7f2e0c8e47af52421b03e3c9",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "codec_name": "aac"
+      }
+    ],
+    "format": {
+      "duration": "128.023220",
+      "size": "2142044"
+    }
+  },
+  "method": "Actual CUA browser screenshots edited into a narrated demonstration. Static sampled frames; not a continuous full-motion screen recording. macOS Tingting synthesized narration. Captions outside UI; no synthetic market values.",
+  "manual_ticks_this_acceptance": 0,
+  "timeline": [
+    {
+      "file": "01-dashboard.png",
+      "caption": "真实沪深 A 股日收盘监控：规则可解释，离开页面后仍由云端检查。",
+      "seconds": 12,
+      "at": "2026-10-24T14:53:40.506Z",
+      "note": "Opening dashboard refreshed after recording the core workflow; editorial establishing shot.",
+      "starts_at_seconds": 0,
+      "duration_seconds": 12,
+      "screenshot_sha256": "aad40cd3447f61eac737f8feab782f75a8c17251f6a5674c65a7a22a69bbb893"
+    },
+    {
+      "file": "02-input.png",
+      "caption": "用自然语言描述目标；模型只生成草稿，不代替用户启用监控。",
+      "seconds": 10,
+      "at": "2026-10-24T14:36:16.403Z",
+      "starts_at_seconds": 12,
+      "duration_seconds": 10,
+      "screenshot_sha256": "46629d09b1b16cc8f0db1207e8ada50c0cc6f7ac415114b369bc4fcaa4b174c8"
+    },
+    {
+      "file": "03-model-draft.png",
+      "caption": "deepseek-flash 已返回招商银行日收盘价低于 40 元的草稿，等待用户采用。",
+      "seconds": 10,
+      "at": "2026-10-24T14:36:45.597Z",
+      "starts_at_seconds": 22,
+      "duration_seconds": 10,
+      "screenshot_sha256": "c26b9300c92ec4f74de350b08f3673e9b11a770d08cb8b23953407ca7679e272"
+    },
+    {
+      "file": "04-preview.png",
+      "caption": "把阈值改为 39.5 元后真实试运行：2026-10-23 收盘 41.77 元，条件未满足。",
+      "seconds": 16,
+      "at": "2026-10-24T14:37:21.394Z",
+      "starts_at_seconds": 32,
+      "duration_seconds": 16,
+      "screenshot_sha256": "1e6609c393f9c990320ec9f914701ad22850979d516cc41d360c01e911971cb1"
+    },
+    {
+      "file": "05-confirm.png",
+      "caption": "启用前再次展示最终规则、冷却和通知范围，必须由用户明确确认。",
+      "seconds": 8,
+      "at": "2026-10-24T14:37:42.769Z",
+      "starts_at_seconds": 48,
+      "duration_seconds": 8,
+      "screenshot_sha256": "8eb7487f6aaea9e238c5344300f60a801265b67a94dbf5475b9850d2d52fd5f3"
+    },
+    {
+      "file": "06-auto-result.png",
+      "caption": "本轮新建任务已由独立云调度执行；真实收盘 41.77 元，未满足 39.5 元阈值，不发提醒。",
+      "seconds": 16,
+      "at": "2026-10-24T14:38:37.023Z",
+      "starts_at_seconds": 56,
+      "duration_seconds": 16,
+      "screenshot_sha256": "82339cdb1e32bc103518a43af5d9878b98999e69a253c92c061ccd0f4ee54f05"
+    },
+    {
+      "file": "07-paused.png",
+      "caption": "可以随时暂停；原有执行依据、规则版本和生命周期记录继续保留。",
+      "seconds": 8,
+      "at": "2026-10-24T14:40:16.056Z",
+      "starts_at_seconds": 72,
+      "duration_seconds": 8,
+      "screenshot_sha256": "4f10e671ab4e1a96f5b9e15dd47d422c173570c458e413f406e34a4b6fe8f16f"
+    },
+    {
+      "file": "08-positive.png",
+      "caption": "查看已有自动触发记录：同一真实收盘价低于 42.77 元，已生成站内提醒。",
+      "seconds": 14,
+      "at": "2026-10-24T14:47:50.728Z",
+      "starts_at_seconds": 80,
+      "duration_seconds": 14,
+      "screenshot_sha256": "d6109d448b8dbbc299432fab6b20fcb7c8878a88e5824b965a14edae3f4ca3e1"
+    },
+    {
+      "file": "09-notification.png",
+      "caption": "提醒关联具体规则版本和价格证据，来源、交易日期与取得时间均可核对。",
+      "seconds": 12,
+      "at": "2026-10-24T14:47:51.113Z",
+      "starts_at_seconds": 94,
+      "duration_seconds": 12,
+      "screenshot_sha256": "93b0c591c1516b59996ff866380dbbb05fa9ade482d53de71bb624ddac9c28ca"
+    },
+    {
+      "file": "10-unknown.png",
+      "caption": "口径不足时明确“无法判断”：旧盘中报价缺逐股时间，不伪装成有效实时数据。",
+      "seconds": 12,
+      "at": "2026-10-24T14:49:36.277Z",
+      "starts_at_seconds": 106,
+      "duration_seconds": 12,
+      "screenshot_sha256": "1d1a85357c627b675a0a462b601914ba1550c66ab30f58125bec6cb130ed5f1e"
+    },
+    {
+      "file": "01-dashboard.png",
+      "caption": "观澜：日收盘监控、站内提醒、可追溯证据。完整源码和测试记录随交付包提供。",
+      "seconds": 10,
+      "at": "2026-10-24T14:53:40.506Z",
+      "starts_at_seconds": 118,
+      "duration_seconds": 10,
+      "screenshot_sha256": "aad40cd3447f61eac737f8feab782f75a8c17251f6a5674c65a7a22a69bbb893"
+    }
+  ]
+}

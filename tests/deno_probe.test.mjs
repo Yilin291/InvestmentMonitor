@@ -1,0 +1,12 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {handler} from '../functions/watchlist-probe/core.js';
+const env=k=>({TICK_SECRET:'TEST ONLY SECRET',SUPABASE_URL:'https://example.test',SUPABASE_SERVICE_ROLE_KEY:'TEST ONLY SERVICE'}[k]);
+const request=(body,secret='TEST ONLY SECRET')=>new Request('https://probe.test',{method:'POST',headers:{'Content-Type':'application/json','X-Probe-Secret':secret},body:JSON.stringify(body)});
+test('wrong business secret denied without upstream',async()=>{const h=handler(env,()=>{throw Error('must not call');});assert.equal((await h(request({action:'status'},'wrong'))).status,401);});
+test('status returns presence only',async()=>{const r=await handler(env)(request({action:'status'}));const b=await r.json();assert.equal(b.secrets_present.TICK_SECRET,true);assert.ok(Object.values(b.secrets_present).every(x=>typeof x==='boolean'));assert.ok(!JSON.stringify(b).includes('TEST ONLY'));});
+test('owner spoof denied',async()=>assert.equal((await handler(env)(request({action:'read',owner:'other'}))).status,403));
+test('fixed RPC and trusted owner only',async()=>{let observed;const h=handler(env,async(url,init)=>{observed={url,body:JSON.parse(init.body)};return Response.json({found:true});});assert.equal((await h(request({action:'write',id:'00000000-0000-4000-8000-000000000001'}))).status,200);assert.equal(observed.url,'https://example.test/rest/v1/rpc/watchlist_probe_v1');assert.equal(observed.body.p_owner,'demo');});
+test('rpc error does not leak details',async()=>{const h=handler(env,async()=>Response.json({code:'23505',message:'TEST ONLY private upstream info'},{status:409}));const r=await h(request({action:'write',id:'00000000-0000-4000-8000-000000000001'}));assert.equal(r.status,409);assert.deepEqual(await r.json(),{code:'rpc_rejected',sqlstate:'23505'});});
+test('plaintext upstream forbidden',async()=>{const h=handler(k=>k==='SUPABASE_URL'?'http://internal.test':env(k));assert.equal((await h(request({action:'read',id:'00000000-0000-4000-8000-000000000001'}))).status,503);});
+test('oversized body rejected',async()=>assert.equal((await handler(env)(request({action:'status',extra:'x'.repeat(5000)}))).status,413));

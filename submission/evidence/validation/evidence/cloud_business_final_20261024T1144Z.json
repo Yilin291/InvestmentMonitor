@@ -1,0 +1,454 @@
+{
+  "checked_at": "2026-10-24T11:44:17.443Z",
+  "scope": "read_only_no_tick",
+  "rows": [
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880703",
+      "started_at": 1792842207.682993,
+      "finished_at": 1792842207.682993,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880701",
+      "started_at": 1792842088.622906,
+      "finished_at": 1792842088.622906,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880700",
+      "started_at": 1792842027.496343,
+      "finished_at": 1792842027.496343,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880699",
+      "started_at": 1792841967.611238,
+      "finished_at": 1792841967.611238,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880698",
+      "started_at": 1792841907.313896,
+      "finished_at": 1792841907.313896,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880697",
+      "started_at": 1792841846.707322,
+      "finished_at": 1792841846.707322,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880696",
+      "started_at": 1792841789.221522,
+      "finished_at": 1792841789.221522,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880695",
+      "started_at": 1792841727.249224,
+      "finished_at": 1792841727.249224,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880694",
+      "started_at": 1792841668.771118,
+      "finished_at": 1792841668.771118,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880693",
+      "started_at": 1792841608.068521,
+      "finished_at": 1792841608.068521,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880692",
+      "started_at": 1792841551.596031,
+      "finished_at": 1792841551.596031,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880691",
+      "started_at": 1792841489.502381,
+      "finished_at": 1792841489.502381,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880690",
+      "started_at": 1792841429.140867,
+      "finished_at": 1792841429.140867,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880689",
+      "started_at": 1792841366.83273,
+      "finished_at": 1792841366.83273,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880688",
+      "started_at": 1792841307.519116,
+      "finished_at": 1792841307.519116,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880687",
+      "started_at": 1792841247.522181,
+      "finished_at": 1792841247.522181,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880686",
+      "started_at": 1792841188.496029,
+      "finished_at": 1792841188.496029,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880685",
+      "started_at": 1792841125.494094,
+      "finished_at": 1792841125.494094,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880684",
+      "started_at": 1792841065.692724,
+      "finished_at": 1792841065.692724,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880683",
+      "started_at": 1792841008.008415,
+      "finished_at": 1792841008.008415,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880682",
+      "started_at": 1792840948.547714,
+      "finished_at": 1792840948.547714,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880681",
+      "started_at": 1792840887.862928,
+      "finished_at": 1792840887.862928,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880680",
+      "started_at": 1792840828.42354,
+      "finished_at": 1792840828.42354,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880679",
+      "started_at": 1792840767.72609,
+      "finished_at": 1792840767.72609,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880678",
+      "started_at": 1792840707.286125,
+      "finished_at": 1792840707.286125,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880677",
+      "started_at": 1792840649.102666,
+      "finished_at": 1792840649.102666,
+      "outcome": {
+        "processed": 0
+      },
+      "run": null,
+      "evidence": [],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880676",
+      "started_at": 1792840588.91832,
+      "finished_at": 1792840590.063443,
+      "outcome": {
+        "run_id": "0af54d95a16f486185db142c651617bf",
+        "decision": "notify",
+        "processed": 1
+      },
+      "run": {
+        "id": "0af54d95a16f486185db142c651617bf",
+        "detail": "{\"market\": {\"status\": \"completed_close\", \"coverage\": \"SSE 2026 scheduled closures plus positive provider expected date; emergency halt remains unknown\", \"checked_at\": 1792840589.305, \"source_ref\": \"https://fuyao.aicubes.cn/api/a-share/calendar/trading-days\", \"trade_date\": \"2026-10-23\", \"exchange_rule\": \"https://www.sse.com.cn/lawandrules/sselawsrules2025/fund/trading/c/c_20260424_10817739.shtml\", \"policy_version\": \"sse-2026-closures-positive-calendar-v2\", \"calendar_sources\": [\"https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml\", \"https://www.sse.com.cn/disclosure/announcement/general/c/c_20260915_10832273.shtml\"], \"calendar_version\": \"sse-2026-notice45-notice22-v1\", \"expected_trade_date\": \"2026-10-23\"}, \"result\": true, \"decision\": \"notify\", \"evidence\": [{\"result\": true, \"quality\": \"valid\", \"condition\": {\"id\": \"p1\", \"field\": \"close_price\", \"value\": \"42.77\", \"currency\": \"CNY\", \"operator\": \"lt\"}, \"observation\": {\"unit\": \"CNY\", \"field\": \"close_price\", \"value\": \"41.77\", \"adjust\": \"none\", \"date_ms\": \"1792684800000\", \"quality\": \"valid\", \"provider\": \"fuyao\", \"fetched_at\": \"2026-10-24T10:44:19.878Z\", \"request_id\": \"fd8d3a1ad95c41cc9e012558ad0b5437\", \"source_ref\": \"https://fuyao.aicubes.cn/api/a-share/prices/historical?thscode=600036.SH&interval=1d&adjust=none&start=1789747200000&end=1792771200000\", \"trade_date\": \"2026-10-23\", \"reason_code\": null, \"source_time\": null, \"instrument_id\": \"CN.SH.600036\", \"provider_echo\": {\"adjust\": \"none\", \"thscode\": \"600036.SH\", \"interval\": \"1d\"}, \"identity_basis\": \"response thscode/interval/adjust strictly matched\", \"mapping_version\": \"fuyao-daily-close-v1\"}, \"reason_code\": null, \"observation_id\": \"41389707ed44490d9037253358e261e7\"}], \"warnings\": [], \"next_check\": 1792912500, \"valid_until\": 1792911600, \"evaluated_at\": 1792840590.063443, \"mapping_version\": \"fuyao-daily-close-v1\"}",
+        "result": "true",
+        "status": "succeeded",
+        "task_id": "57a30a61beea43ee85e48e748c12f314",
+        "version": 1,
+        "decision": "notify",
+        "generation": 1,
+        "started_at": 1792840588.91832,
+        "finished_at": 1792840590.063443,
+        "scheduled_for": 1792838949.63927
+      },
+      "evidence": [
+        {
+          "id": 8,
+          "detail": "{\"result\": true, \"quality\": \"valid\", \"condition\": {\"id\": \"p1\", \"field\": \"close_price\", \"value\": \"42.77\", \"currency\": \"CNY\", \"operator\": \"lt\"}, \"observation\": {\"unit\": \"CNY\", \"field\": \"close_price\", \"value\": \"41.77\", \"adjust\": \"none\", \"date_ms\": \"1792684800000\", \"quality\": \"valid\", \"provider\": \"fuyao\", \"fetched_at\": \"2026-10-24T10:44:19.878Z\", \"request_id\": \"fd8d3a1ad95c41cc9e012558ad0b5437\", \"source_ref\": \"https://fuyao.aicubes.cn/api/a-share/prices/historical?thscode=600036.SH&interval=1d&adjust=none&start=1789747200000&end=1792771200000\", \"trade_date\": \"2026-10-23\", \"reason_code\": null, \"source_time\": null, \"instrument_id\": \"CN.SH.600036\", \"provider_echo\": {\"adjust\": \"none\", \"thscode\": \"600036.SH\", \"interval\": \"1d\"}, \"identity_basis\": \"response thscode/interval/adjust strictly matched\", \"mapping_version\": \"fuyao-daily-close-v1\"}, \"reason_code\": null, \"observation_id\": \"41389707ed44490d9037253358e261e7\"}",
+          "run_id": "0af54d95a16f486185db142c651617bf",
+          "event_id": null,
+          "observation_id": "41389707ed44490d9037253358e261e7"
+        }
+      ],
+      "notifications": [
+        {
+          "id": "af97828457b34349a322eff00f921dd9",
+          "detail": "{\"name\": \"UI自然语言日收盘自动演示\", \"basis\": \"日收盘价 / 不复权 / CNY / 首次已满足也会提醒\", \"evidence\": {\"market\": {\"status\": \"completed_close\", \"coverage\": \"SSE 2026 scheduled closures plus positive provider expected date; emergency halt remains unknown\", \"checked_at\": 1792840589.305, \"source_ref\": \"https://fuyao.aicubes.cn/api/a-share/calendar/trading-days\", \"trade_date\": \"2026-10-23\", \"exchange_rule\": \"https://www.sse.com.cn/lawandrules/sselawsrules2025/fund/trading/c/c_20260424_10817739.shtml\", \"policy_version\": \"sse-2026-closures-positive-calendar-v2\", \"calendar_sources\": [\"https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml\", \"https://www.sse.com.cn/disclosure/announcement/general/c/c_20260915_10832273.shtml\"], \"calendar_version\": \"sse-2026-notice45-notice22-v1\", \"expected_trade_date\": \"2026-10-23\"}, \"result\": true, \"decision\": \"notify\", \"evidence\": [{\"result\": true, \"quality\": \"valid\", \"condition\": {\"id\": \"p1\", \"field\": \"close_price\", \"value\": \"42.77\", \"currency\": \"CNY\", \"operator\": \"lt\"}, \"observation\": {\"unit\": \"CNY\", \"field\": \"close_price\", \"value\": \"41.77\", \"adjust\": \"none\", \"date_ms\": \"1792684800000\", \"quality\": \"valid\", \"provider\": \"fuyao\", \"fetched_at\": \"2026-10-24T10:44:19.878Z\", \"request_id\": \"fd8d3a1ad95c41cc9e012558ad0b5437\", \"source_ref\": \"https://fuyao.aicubes.cn/api/a-share/prices/historical?thscode=600036.SH&interval=1d&adjust=none&start=1789747200000&end=1792771200000\", \"trade_date\": \"2026-10-23\", \"reason_code\": null, \"source_time\": null, \"instrument_id\": \"CN.SH.600036\", \"provider_echo\": {\"adjust\": \"none\", \"thscode\": \"600036.SH\", \"interval\": \"1d\"}, \"identity_basis\": \"response thscode/interval/adjust strictly matched\", \"mapping_version\": \"fuyao-daily-close-v1\"}, \"reason_code\": null, \"observation_id\": \"41389707ed44490d9037253358e261e7\"}], \"warnings\": [], \"next_check\": 1792912500, \"valid_until\": 1792911600, \"evaluated_at\": 1792840590.063443, \"mapping_version\": \"fuyao-daily-close-v1\"}, \"trade_date\": \"2026-10-23\"}",
+          "run_id": "0af54d95a16f486185db142c651617bf",
+          "read_at": null,
+          "task_id": "57a30a61beea43ee85e48e748c12f314",
+          "dedup_key": "close:57a30a61beea43ee85e48e748c12f314:1:1",
+          "created_at": 1792840590.063443
+        }
+      ]
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880675",
+      "started_at": 1792840526.041185,
+      "finished_at": 1792840526.923035,
+      "outcome": {
+        "run_id": "3c652b8c53ec470aae42a8b3ebd7fb3b",
+        "decision": "no_match",
+        "processed": 1
+      },
+      "run": {
+        "id": "3c652b8c53ec470aae42a8b3ebd7fb3b",
+        "detail": "{\"market\": {\"status\": \"completed_close\", \"coverage\": \"SSE 2026 scheduled closures plus positive provider expected date; emergency halt remains unknown\", \"checked_at\": 1792840526.154, \"source_ref\": \"https://fuyao.aicubes.cn/api/a-share/calendar/trading-days\", \"trade_date\": \"2026-10-23\", \"exchange_rule\": \"https://www.sse.com.cn/lawandrules/sselawsrules2025/fund/trading/c/c_20260424_10817739.shtml\", \"policy_version\": \"sse-2026-closures-positive-calendar-v2\", \"calendar_sources\": [\"https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml\", \"https://www.sse.com.cn/disclosure/announcement/general/c/c_20260915_10832273.shtml\"], \"calendar_version\": \"sse-2026-notice45-notice22-v1\", \"expected_trade_date\": \"2026-10-23\"}, \"result\": false, \"decision\": \"no_match\", \"evidence\": [{\"result\": false, \"quality\": \"valid\", \"condition\": {\"id\": \"p1\", \"field\": \"close_price\", \"value\": \"50.76\", \"currency\": \"CNY\", \"operator\": \"lt\"}, \"observation\": {\"unit\": \"CNY\", \"field\": \"close_price\", \"value\": \"51.76\", \"adjust\": \"none\", \"date_ms\": \"1792684800000\", \"quality\": \"valid\", \"provider\": \"fuyao\", \"fetched_at\": \"2026-10-24T10:44:14.796Z\", \"request_id\": \"ddbda0828da94407a2ae8b40e4fd4387\", \"source_ref\": \"https://fuyao.aicubes.cn/api/a-share/prices/historical?thscode=601318.SH&interval=1d&adjust=none&start=1789747200000&end=1792771200000\", \"trade_date\": \"2026-10-23\", \"reason_code\": null, \"source_time\": null, \"instrument_id\": \"CN.SH.601318\", \"provider_echo\": {\"adjust\": \"none\", \"thscode\": \"601318.SH\", \"interval\": \"1d\"}, \"identity_basis\": \"response thscode/interval/adjust strictly matched\", \"mapping_version\": \"fuyao-daily-close-v1\"}, \"reason_code\": null, \"observation_id\": \"96a3db16928f4db2b24a27df74d57d27\"}], \"warnings\": [], \"next_check\": 1792912500, \"valid_until\": 1792911600, \"evaluated_at\": 1792840526.923035, \"mapping_version\": \"fuyao-daily-close-v1\"}",
+        "result": "false",
+        "status": "succeeded",
+        "task_id": "546597e801114893915b4fa98c978d0a",
+        "version": 1,
+        "decision": "no_match",
+        "generation": 1,
+        "started_at": 1792840526.041185,
+        "finished_at": 1792840526.923035,
+        "scheduled_for": 1792838658.536212
+      },
+      "evidence": [
+        {
+          "id": 7,
+          "detail": "{\"result\": false, \"quality\": \"valid\", \"condition\": {\"id\": \"p1\", \"field\": \"close_price\", \"value\": \"50.76\", \"currency\": \"CNY\", \"operator\": \"lt\"}, \"observation\": {\"unit\": \"CNY\", \"field\": \"close_price\", \"value\": \"51.76\", \"adjust\": \"none\", \"date_ms\": \"1792684800000\", \"quality\": \"valid\", \"provider\": \"fuyao\", \"fetched_at\": \"2026-10-24T10:44:14.796Z\", \"request_id\": \"ddbda0828da94407a2ae8b40e4fd4387\", \"source_ref\": \"https://fuyao.aicubes.cn/api/a-share/prices/historical?thscode=601318.SH&interval=1d&adjust=none&start=1789747200000&end=1792771200000\", \"trade_date\": \"2026-10-23\", \"reason_code\": null, \"source_time\": null, \"instrument_id\": \"CN.SH.601318\", \"provider_echo\": {\"adjust\": \"none\", \"thscode\": \"601318.SH\", \"interval\": \"1d\"}, \"identity_basis\": \"response thscode/interval/adjust strictly matched\", \"mapping_version\": \"fuyao-daily-close-v1\"}, \"reason_code\": null, \"observation_id\": \"96a3db16928f4db2b24a27df74d57d27\"}",
+          "run_id": "3c652b8c53ec470aae42a8b3ebd7fb3b",
+          "event_id": null,
+          "observation_id": "96a3db16928f4db2b24a27df74d57d27"
+        }
+      ],
+      "notifications": []
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880674",
+      "started_at": 1792840468.925833,
+      "finished_at": 1792840469.545579,
+      "outcome": {
+        "run_id": "522e50acd7474688b7a19f7575d160bc",
+        "decision": "notify",
+        "processed": 1
+      },
+      "run": {
+        "id": "522e50acd7474688b7a19f7575d160bc",
+        "detail": "{\"market\": {\"status\": \"completed_close\", \"coverage\": \"SSE 2026 scheduled closures plus positive provider expected date; emergency halt remains unknown\", \"checked_at\": 1792840469.064, \"source_ref\": \"https://fuyao.aicubes.cn/api/a-share/calendar/trading-days\", \"trade_date\": \"2026-10-23\", \"exchange_rule\": \"https://www.sse.com.cn/lawandrules/sselawsrules2025/fund/trading/c/c_20260424_10817739.shtml\", \"policy_version\": \"sse-2026-closures-positive-calendar-v2\", \"calendar_sources\": [\"https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml\", \"https://www.sse.com.cn/disclosure/announcement/general/c/c_20260915_10832273.shtml\"], \"calendar_version\": \"sse-2026-notice45-notice22-v1\", \"expected_trade_date\": \"2026-10-23\"}, \"result\": true, \"decision\": \"notify\", \"evidence\": [{\"result\": true, \"quality\": \"valid\", \"condition\": {\"id\": \"p1\", \"field\": \"close_price\", \"value\": \"1336.0\", \"currency\": \"CNY\", \"operator\": \"lt\"}, \"observation\": {\"unit\": \"CNY\", \"field\": \"close_price\", \"value\": \"1335.0\", \"adjust\": \"none\", \"date_ms\": \"1792684800000\", \"quality\": \"valid\", \"provider\": \"fuyao\", \"fetched_at\": \"2026-10-24T10:44:08.870Z\", \"request_id\": \"1b39408f2720473b837964691f498ab4\", \"source_ref\": \"https://fuyao.aicubes.cn/api/a-share/prices/historical?thscode=600519.SH&interval=1d&adjust=none&start=1789747200000&end=1792771200000\", \"trade_date\": \"2026-10-23\", \"reason_code\": null, \"source_time\": null, \"instrument_id\": \"CN.SH.600519\", \"provider_echo\": {\"adjust\": \"none\", \"thscode\": \"600519.SH\", \"interval\": \"1d\"}, \"identity_basis\": \"response thscode/interval/adjust strictly matched\", \"mapping_version\": \"fuyao-daily-close-v1\"}, \"reason_code\": null, \"observation_id\": \"b06ccf005b9d41bb8e87c0fbe9be0cc6\"}], \"warnings\": [], \"next_check\": 1792912500, \"valid_until\": 1792911600, \"evaluated_at\": 1792840469.545579, \"mapping_version\": \"fuyao-daily-close-v1\"}",
+        "result": "true",
+        "status": "succeeded",
+        "task_id": "67c22ac8c03742a9939a6f4fa98c278b",
+        "version": 1,
+        "decision": "notify",
+        "generation": 1,
+        "started_at": 1792840468.925833,
+        "finished_at": 1792840469.545579,
+        "scheduled_for": 1792838653.058243
+      },
+      "evidence": [
+        {
+          "id": 6,
+          "detail": "{\"result\": true, \"quality\": \"valid\", \"condition\": {\"id\": \"p1\", \"field\": \"close_price\", \"value\": \"1336.0\", \"currency\": \"CNY\", \"operator\": \"lt\"}, \"observation\": {\"unit\": \"CNY\", \"field\": \"close_price\", \"value\": \"1335.0\", \"adjust\": \"none\", \"date_ms\": \"1792684800000\", \"quality\": \"valid\", \"provider\": \"fuyao\", \"fetched_at\": \"2026-10-24T10:44:08.870Z\", \"request_id\": \"1b39408f2720473b837964691f498ab4\", \"source_ref\": \"https://fuyao.aicubes.cn/api/a-share/prices/historical?thscode=600519.SH&interval=1d&adjust=none&start=1789747200000&end=1792771200000\", \"trade_date\": \"2026-10-23\", \"reason_code\": null, \"source_time\": null, \"instrument_id\": \"CN.SH.600519\", \"provider_echo\": {\"adjust\": \"none\", \"thscode\": \"600519.SH\", \"interval\": \"1d\"}, \"identity_basis\": \"response thscode/interval/adjust strictly matched\", \"mapping_version\": \"fuyao-daily-close-v1\"}, \"reason_code\": null, \"observation_id\": \"b06ccf005b9d41bb8e87c0fbe9be0cc6\"}",
+          "run_id": "522e50acd7474688b7a19f7575d160bc",
+          "event_id": null,
+          "observation_id": "b06ccf005b9d41bb8e87c0fbe9be0cc6"
+        }
+      ],
+      "notifications": [
+        {
+          "id": "6f18ade4d2d34ec9a5040295f453bf3d",
+          "detail": "{\"name\": \"自动日收盘演示 · 贵州茅台（满足，待独立调度）\", \"basis\": \"日收盘价 / 不复权 / CNY / 首次已满足也会提醒\", \"evidence\": {\"market\": {\"status\": \"completed_close\", \"coverage\": \"SSE 2026 scheduled closures plus positive provider expected date; emergency halt remains unknown\", \"checked_at\": 1792840469.064, \"source_ref\": \"https://fuyao.aicubes.cn/api/a-share/calendar/trading-days\", \"trade_date\": \"2026-10-23\", \"exchange_rule\": \"https://www.sse.com.cn/lawandrules/sselawsrules2025/fund/trading/c/c_20260424_10817739.shtml\", \"policy_version\": \"sse-2026-closures-positive-calendar-v2\", \"calendar_sources\": [\"https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml\", \"https://www.sse.com.cn/disclosure/announcement/general/c/c_20260915_10832273.shtml\"], \"calendar_version\": \"sse-2026-notice45-notice22-v1\", \"expected_trade_date\": \"2026-10-23\"}, \"result\": true, \"decision\": \"notify\", \"evidence\": [{\"result\": true, \"quality\": \"valid\", \"condition\": {\"id\": \"p1\", \"field\": \"close_price\", \"value\": \"1336.0\", \"currency\": \"CNY\", \"operator\": \"lt\"}, \"observation\": {\"unit\": \"CNY\", \"field\": \"close_price\", \"value\": \"1335.0\", \"adjust\": \"none\", \"date_ms\": \"1792684800000\", \"quality\": \"valid\", \"provider\": \"fuyao\", \"fetched_at\": \"2026-10-24T10:44:08.870Z\", \"request_id\": \"1b39408f2720473b837964691f498ab4\", \"source_ref\": \"https://fuyao.aicubes.cn/api/a-share/prices/historical?thscode=600519.SH&interval=1d&adjust=none&start=1789747200000&end=1792771200000\", \"trade_date\": \"2026-10-23\", \"reason_code\": null, \"source_time\": null, \"instrument_id\": \"CN.SH.600519\", \"provider_echo\": {\"adjust\": \"none\", \"thscode\": \"600519.SH\", \"interval\": \"1d\"}, \"identity_basis\": \"response thscode/interval/adjust strictly matched\", \"mapping_version\": \"fuyao-daily-close-v1\"}, \"reason_code\": null, \"observation_id\": \"b06ccf005b9d41bb8e87c0fbe9be0cc6\"}], \"warnings\": [], \"next_check\": 1792912500, \"valid_until\": 1792911600, \"evaluated_at\": 1792840469.545579, \"mapping_version\": \"fuyao-daily-close-v1\"}, \"trade_date\": \"2026-10-23\"}",
+          "run_id": "522e50acd7474688b7a19f7575d160bc",
+          "read_at": null,
+          "task_id": "67c22ac8c03742a9939a6f4fa98c278b",
+          "dedup_key": "close:67c22ac8c03742a9939a6f4fa98c278b:1:1",
+          "created_at": 1792840469.545579
+        }
+      ]
+    },
+    {
+      "request_key": "cf-cron:ucdte4eh02uv:29880673",
+      "started_at": 1792840407.937273,
+      "finished_at": 1792840408.132506,
+      "outcome": {
+        "run_id": "d30d9a01269d47c5bba771b8854df16f",
+        "decision": "notify",
+        "processed": 1
+      },
+      "run": {
+        "id": "d30d9a01269d47c5bba771b8854df16f",
+        "detail": "{\"result\": true, \"calendar\": {\"actual_at\": 1792840408.132506, \"late_seconds\": 5308.132505893707, \"scheduled_at\": 1792835100}, \"decision\": \"notify\", \"evidence\": [], \"evaluated_at\": 1792840408.132506}",
+        "result": "true",
+        "status": "succeeded",
+        "task_id": "48bf9e848e5a4b29ba47241a4636ab3e",
+        "version": 1,
+        "decision": "notify",
+        "generation": 1,
+        "started_at": 1792840407.937273,
+        "finished_at": 1792840408.132506,
+        "scheduled_for": 1792835100
+      },
+      "evidence": [
+        {
+          "id": 5,
+          "detail": "{\"result\": true, \"calendar\": {\"actual_at\": 1792840408.132506, \"late_seconds\": 5308.132505893707, \"scheduled_at\": 1792835100}}",
+          "run_id": "d30d9a01269d47c5bba771b8854df16f",
+          "event_id": null,
+          "observation_id": null
+        }
+      ],
+      "notifications": [
+        {
+          "id": "928d0f1735a940f89b73f620bbe50d2e",
+          "detail": "{\"name\": \"UI日期提醒演示（等待独立调度）\", \"evidence\": {\"result\": true, \"calendar\": {\"actual_at\": 1792840408.132506, \"late_seconds\": 5308.132505893707, \"scheduled_at\": 1792835100}, \"decision\": \"notify\", \"evidence\": [], \"evaluated_at\": 1792840408.132506}}",
+          "run_id": "d30d9a01269d47c5bba771b8854df16f",
+          "read_at": null,
+          "task_id": "48bf9e848e5a4b29ba47241a4636ab3e",
+          "dedup_key": "calendar:48bf9e848e5a4b29ba47241a4636ab3e:1792835100",
+          "created_at": 1792840408.132506
+        }
+      ]
+    }
+  ]
+}
